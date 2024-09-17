@@ -1,0 +1,598 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>16-867: Embodied AI Safety</title>
+  
+  <meta name="author" content="Andrea Bajcsy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Style-related -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="favicon-dragon.ico">
+  <!--/ Style-related -->
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <!--/ MathJax -->
+</head>
+
+
+<!-- HEADER -->
+<div class="header" style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;padding-bottom:0px;">
+  <!-- Class name -->
+  <a href="index.html" class="logo" style="color:black;font-size:30px; padding-top:30px; padding-left:0px; width:100%;max-width:900px;">16-867: Embodied AI Safety<p>Spring 2025</p></a>
+</div>
+<!--/ HEADER -->
+
+
+<body>
+
+<!-- CONTENT -->
+<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <tr style="padding:0px">
+    <td style="padding:0px" class=main>
+    
+  <!-- <img src="./static/images/front-fig.png" class="center" width=100%, style="border-radius:20px"> -->
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td class=main>
+
+        <p>
+          <b>Professor:</b> <a href="https://www.cs.cmu.edu/~abajcsy/">Andrea Bajcsy</a>  (<tt>abajcsy [at] cmu [dot] edu</tt>)
+          <br>
+          <b>Office Hours:</b> TBA
+          <br>
+          <b>Office Hours Location:</b> NSH 4629 
+        </p>
+        <!-- <p>
+          <b>Teaching Assistant: </b> <a href="https://pranaygupta36.github.io/">Pranay Gupta</a> (<tt>pranaygu [at] andrew [dot] cmu [dot] edu</tt>)
+          <br>
+          <b>Office Hours:</b>  4:00 - 5:00pm
+          <br>
+          <b>Office Hours Location: </b> NSH 4504
+        </p> -->
+        <!-- <p>
+          <b>Lecture Time: </b> Tues & Thurs, 11:00 - 12:20 pm
+          <br>
+          <b>Lecture Location: </b> Wean 4623
+          <br>
+          <b>Syllabus: </b> <a href="16_867_HRI__Syllabus.pdf">PDF</a>
+          <br>
+          <b>Canvas: </b> <a href="https://canvas.cmu.edu/courses/41578">https://canvas.cmu.edu/courses/41578</a>
+        </p> -->
+
+        <h1 style="font-variant-caps: small-caps;">Overview</h1>
+        <p>
+          Safety is a nuanced concept. For embodied systems, like robots, we commonly equate safety with collision-avoidance. But out in the “open world” it can be much more: for example, a safe mobile manipulator should understand when it is not confident about a requested task and understand that areas roped off by caution tape should never be breached. In this class, we study the question of if (and how) the rise of modern artificial intelligence (AI) models (e.g., deep neural trajectory predictors, large vision-language models, and latent world models) can be harnessed to unlock new avenues for generalizing safety to the open world. From a foundations perspective, we study safety methods from two complementary communities: control theory (which enables the computation of safe decisions) and statistics (which enables uncertainty quantification and anomaly detection). Throughout the class, there will also be several guest lectures from experts in the field. Students will practice essential research skills including reviewing papers, writing project proposals, and technical communication.
+        </p>
+
+        <h1 style="font-variant-caps: small-caps;">Prerequisites</h1>
+        <p>
+          The course is open to graduate students without strict prerequisites. Familiarity with probability, differential equations, and linear algebra is highly encouraged. Interested undergraduate students with a strong background may seek approval from the instructor.
+        </p>
+        <!------------------------------------------->
+      </td>
+    </tr>
+  </tbody>
+  </table>
+  <!--/ CONTENT -->
+
+
+  <!-- NEWS -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+        <td class=main>
+          <heading><b>News</b></heading>
+          <p>
+            <ul class="fa-ul">
+              <!-- <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/05/24]  </p>Lecture notes 4 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/03/24]  </p>Lecture notes 3 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/02/24]  </p>Small updates to the first two week schedule and papers</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[08/29/24]  </p>Lecture notes 1 and 2 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[08/19/24]  </p> New room location: Wean 4623</li>
+            </ul> -->
+          </p>
+        </td>
+      </tr>
+      </tbody>
+    </table>  
+  <!--/ NEWS -->
+
+  <!-- SCHEDULE -->
+ 
+  <h1 style="font-variant-caps: small-caps;">
+    Schedule (tentative)
+  </h1>
+  <table style="width:100%" class=schedule>
+  <tr>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Info</th>
+    <!-- <th>Info</th> -->
+  </tr>
+  
+<!--------------------->
+ <tr class="block"> 
+    <td><b>Week 1</b> <br> Mon, Jan 15</td>
+    <td><i>No Class (MLK Day)</i></td>
+    <td>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+  <tr class="block">
+    <td><b>Week 1</b> <br> Wed, Jan 17</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Introduction</td>
+    <td>
+      <ul>
+        <li> Please check the course syllabus </li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a>
+      </p>
+    </td>
+    <!-- <td></td> -->
+  </tr>
+<!--------------------->
+  <tr> 
+    <td><b>Week 2</b> <br> Mon, Jan 22</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Dynamical systems models</td>
+    <td> 
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture2-mathematical-models-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> Sign up for presentations</i> </td> -->
+  </tr>
+
+  <tr>
+    <td><b>Week 2</b> <br> Wed, Jan 24</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Optimal decision-making </td>
+    <td> 
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture3-optimal-control-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+<!--------------------->
+  <tr class="block">
+    <td><b>Week 3</b> <br> Mon, Jan 29</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Robust optimal control</td>
+    <td> 
+      <p><i>Further reading:</i></p>
+      <ul>
+        <li>Differential Games I: Introduction. Isaacs. (1954)</li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture4-robust-oc-dynamic-games-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+  
+ <tr class="block">
+    <td><b>Week 3</b> <br> Wed, Jan 31</td>
+        <td><i><span class="label label-lecture text-base">Lecture</span></i> Safety Analysis I </td>
+    <td> 
+      <p><i>Further reading:</i></p>
+      <ul>
+        <li>A Time-Dependent Hamilton–Jacobi Formulation of Reachable Sets for Continuous Dynamic Games. Mitchell, et al. (2005)</li>
+        <li>Hamilton-Jacobi formulation for reach-avoid differential games. Margellos & Lygeros (2009)</li>
+        <li>Reach-avoid problems with time-varying dynamics, targets and constraints. Fisac, et al. (2015)</li>
+        <!-- <li>Hamilton-Jacobi Reachability: A Brief Overview and Recent Advances. Bansal et al. (2017) </li> -->
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture5-hji-equation-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+   <!--------------------->
+   <tr>
+    <td><b>Week 4</b> <br> Mon, Feb 5</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Safety Analysis II </td>
+    <td> 
+      <i><span class="label label-due text-base">Due</span></i> <b>Project Proposal</b>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture6-safety-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td>  </td> -->
+  </tr>
+
+
+ <tr>
+    <td><b>Week 4</b> <br> Wed Feb 7</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Computationally scalable safety</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li><a href="https://arxiv.org/pdf/2011.02082.pdf">[P1] DeepReach: A Deep Learning Approach to High-Dimensional Reachability. Bansal & Tomlin (2020)</a></li>
+        <li><a href="https://arxiv.org/abs/2212.03228">[P2] ISAACS: Iterative Soft Adversarial Actor-Critic for Safety. Hsu, et al. (2023)</a></li>
+      </ul>
+      <p><i>Further reading:</i></p>
+      <ul>
+        <li>A Minimum Discounted Reward Hamilton-Jacobi Formulation for Computing Reachable Sets. Akametalu, et al. (2018)</li>
+        <li>Reachability-Based Safety Guarantees using Efficient Initializations. Herbert, et al. (2019)</li>
+      </ul>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+   <!--------------------->
+   <tr class="block"> 
+    <td><b>Week 5</b> <br> Mon, Feb 12</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> <a href="https://jay-choi.me/">Jason Choi</a> (UC Berkeley)</td>
+    <td> 
+      <p><b>Title:</b> Safety Filters for Uncertain Dynamical Systems: Control Theory & Data-driven Approaches </p>
+      <p><b>Abstract: </b> Safety is a primary concern when deploying autonomous robots in the real world. Model-based controllers designed to ensure safety constraints often fail due to model uncertainties present in real physical systems. Providing practical safety guarantees for uncertain systems is a significant challenge, which will be the main focus of this talk. In the first part of the talk, I will review three of the most popular methods for implementing safety filters in general nonlinear systems—Hamilton-Jacobi Reachability, Control Barrier Functions, and Model Predictive Control. The theories underlying each of these methods are well-established for systems with good mathematical models, and have been extended to account for the uncertainties of real-world systems. I will discuss the strengths, drawbacks, and connections of each method. In the second part of the talk, I will discuss how data-driven methods can help resolve the challenge. I will provide an overview of various data-driven safety filters developed during my PhD studies. Finally, I will explore remaining open research problems in addressing safety effectively for real-world robot autonomy. </p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="https://www.youtube.com/watch?v=i-aRZ2voxGc"><b><i>Recording</i></b></a>
+      <hr>
+      <!-- <i><span class="label label-due text-base">Due</span></i> <b>HW 1 </b>  -->
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <li>An Efficient Reachability-Based Framework for Provably Safe Autonomous Navigation in Unknown Environments. Bajcsy, et al. (2019)</li>
+        <li>Data-Driven Safety Filters: Hamilton-Jacobi Reachability, Control Barrier Functions, and Predictive Methods for Uncertain Systems. Wabersich, et al. (2023)</li>
+        <li>The safety filter: A unified view of safety-critical control in autonomous systems. Hsu, et al. (2023)</li>
+      </ul>
+    </td>
+    <!-- <td>  </td> -->
+   </tr>
+
+   
+  <tr class="block"> 
+    <td><b>Week 5</b> <br> Wed, Feb 14</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Safety filtering around humans</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/pdf/2012.03390.pdf">[P1] On Infusing Reachability-Based Safety Assurance within Planning Frameworks for Human-Robot Vehicle Interactions. Leung, et al. (2020) </a></li>
+        <li> <a href="https://arxiv.org/abs/2110.00843"> [P2]  SHARP: Shielding-aware robust planning for safe and efficient human-robot interaction. Hu, et al. (2022) </a> </li>
+      </ul>
+<!--       <p><i>Further reading:</i></p>
+      <ul>
+        <li> Towards the Unification and Data-Driven Synthesis of Autonomous Vehicle Safety Concepts. Leung & Bajcsy, et al. (2022) </li>
+      </ul> -->
+    <!-- <td></td> -->
+  </tr>
+
+   <!--------------------------->
+   <tr>
+    <td><b>Week 6</b> <br> Mon, Feb 19</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Human prediction</td>
+    <td>
+      <p><i><span class="label label-due text-base">Due</span></i> <b>Homework</b></p>
+      <p> <i> Further Reading:</i></p>
+      <ul>
+        <li>Maximum Entropy Inverse Reinforcement Learning. Ziebart, et al. (2008)</li>
+        <li>Activity Forecasting. Kitani, et al. (2012)</li>
+        <li>Predicting Human Reaching Motion in Collaborative Tasks Using Inverse Optimal Control and Iterative Re-planning. Mainprice, et al. (2015)</li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture7-human-pred-I-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+   </tr>
+
+
+   
+ <tr>
+    <td><b>Week 6</b> <br> Wed, Feb 21</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> <a href="https://lasse-peters.net/">Lasse Peters</a> (TU Delft)</td>
+    <td>
+      <p><b>Title:</b> Game-Theoretic Models for Multi-Agent Interaction</p>
+      <p><b>Abstract:</b> When multiple agents operate in a common environment, their actions are naturally interdependent and this coupling complicates planning. In this lecture, we will approach this problem through the lens of dynamic game theory. We will discuss how to model multi-agent interactions as general-sum games over continuous states and actions, characterize solution concepts of such games, and highlight the key challenges of solving them in practice. Based on this foundation, we will review established techniques to tractably approximate game solutions for online decision-making. Finally, will discuss extensions of the game-theoretic framework to settings that involve incomplete knowledge about the intent, dynamics, or state of other agents.</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="https://www.youtube.com/watch?v=Jcw1C57G1eo"><b><i>Recording</i></b></a>
+      <hr>
+      <!-- <i>HW 2 Released</i>  -->
+      <p> <i> Further Reading:</i></p>
+      <ul>
+        <!-- <li> Planning for Cars that Coordinate with People: Leveraging Effects on Human Actions for Planning and Active Information Gathering over Human Internal State. Sadigh, et al. (2018)</li> -->
+        <li> Social behavior for autonomous vehicles. Schwarting, et al. (2019)</li>
+        <li> Efficient Iterative Linear-Quadratic Approximations for Nonlinear Multi-Player General-Sum Differential Games. Fridovich-Keil, et al. (2019)</li>
+        <li> NashFormer: Leveraging Local Nash Equilibria for Semantically Diverse Trajectory Prediction. Lidard, et al. (2023)</li>
+      </ul>
+    </td>
+  </tr>
+
+
+   <!--------------------------->
+   <tr class="block">
+    <td><b>Week 7</b> <br> Mon, Feb 26</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Human prediction: Data-driven</td>
+    <td> 
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <li>Trajectron++: Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data. Salzmann and Ivanovic, et al. (2020)</li>
+        <li>Identifying Driver Interactions via Conditional Behavior Prediction. Tolstaya, et al. (2021) </li>
+        <li>MotionLM: Multi-Agent Motion Forecasting as Language Modeling. Seff, et al. (2023)</li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture8-human-pred-II-24.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> </td> -->
+   </tr>
+    
+ <tr class="block">
+    <td><b>Week 7</b> <br> Wed, Feb 28</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Dr. <a href="https://www.borisivanovic.com/">Boris Ivanovic </a>(NVIDIA)</td> 
+    <td> 
+      <p><b>Title:</b> Behavior Prediction as a Nucleus of Modern AV Research</p>
+      <p><b>Abstract:</b> Research on behavior prediction, the task of predicting the future motion of agents, has had an outsized impact on multiple aspects of autonomous vehicles (AVs). From direct improvements in online driving performance to deeper connections between AV stack modules to enabling closed-loop training and evaluation in simulation with intelligent reactive agents, behavior prediction has served as a nucleus for much of modern AV research. In this lecture, I will discuss recent advancements along each of these directions, covering modern approaches for behavior prediction, generalization to unseen environments, tighter integrations of AV stack components (towards end-to-end AV architectures), and methods for simulating the behaviors of agents. Finally, I will outline some open research problems in modeling human motion and their potential impacts on downstream driving performance.</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="https://youtu.be/VqlXyDEK0oA"><b><i>Recording</i></b></a>
+    </td>
+ </tr>
+ 
+    <!--------------------------->     
+
+ <tr>
+    <td><b>Week 8</b> <br> Mon, Mar 4</td>
+    <td><i>No Class (Spring Break)</i></td>
+    <td></td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr>
+    <td><b>Week 8</b> <br> Wed, Mar 6</td>
+    <td><i>No Class (Spring Break)</i></td>
+    <td></td>
+    <!-- <td></td> -->
+ </tr>
+ 
+    <!--------------------------->   
+ <tr class="block">
+    <td><b>Week 9</b> <br> Mon, Mar 11</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Embedding human models into safety I </td>
+    <td> 
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/2011.12406">[P1] Prediction-Based Reachability for Collision Avoidance in Autonomous Driving. Li, et al. (2021) </a></li></li>
+        <li> <a href="https://arxiv.org/abs/1806.00109">[P2] Probabilistically Safe Robot Planning with Confidence-Based Human Predictions. Fisac & Bajcsy, et al. (2018) </a></li>
+      </ul>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <!--       <ul>
+        <li>"Planning Based Prediction for Pedestrians" (2009) </li>
+        <li>"Goal Inference as Invese Planning" (2007)</li>
+        <li>"Obsessed with Goals" (2007)</li>
+        <li><a href = 'https://arxiv.org/abs/2008.08294'>TNT: Target-driveN Trajectory Prediction</a> (2020)</li>
+      </ul> -->
+
+
+ <tr class="block">
+    <td><b>Week 9</b> <br> Wed, Mar 13</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest lecture</span></i> Prof. <a href="https://clearoboticslab.github.io/">David Fridovich-Keil</a> (UT Austin)</td>
+    <td>
+      <p><b>Title:</b> Inverse games: an MPEC by any other name…</p>
+
+      <p><b>Abstract:</b> This lecture will introduce mathematical programs with equilibrium constraints (MPECs), and show how they encompass an “inverse” variant of mathematical games in which parameters of players’ costs and constraints must be inferred from data, or designed to yield specific equilibrium outcomes. We will begin with a brief review of the fundamentals of constrained optimization, and discuss how these familiar concepts appear in inverse games and the implications for designing efficient solution methods. The lecture will conclude with a review of several recent papers that present new developments in this space. </p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="https://youtu.be/S3gKZCDUaBU"><b><i>Recording</i></b></a>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+<tr>
+    <td><b>Week 10</b> <br> Mon, Mar 18</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Embedding human models into safety II </td> <!--Learning from sub-optimal demonstration data</td>-->
+    <td> <p><span class="label label-due text-base">Due</span> </i> <b>Mid-term Report </b></p>
+      <p> <b> Required Reading: </b></p>
+      <ul>
+        <!-- <li><a href="https://arxiv.org/abs/1907.03976">[P1] Better-than-demonstrator Imitation Learning via Automatically-ranked Demonstrations. Brown, et al. (2020)</a></li> -->
+        <li> <a href="https://arxiv.org/abs/2109.14700">[P1] Safety Assurances for Human-Robot Interaction via Confidence-aware Game-theoretic Human Models. Tian, et al. (2022) </a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2210.01199">[P2] Online Update of Safety Assurances Using Confidence-Based Predictions. Nakamura & Bansal (2023) </a></li> -->
+        <li> <a href="https://arxiv.org/abs/2103.05746">[P2] Analyzing Human Models that Adapt Online. Bajcsy, et al. (2021) </a></li>
+        <!-- <li>Learning from Suboptimal Demonstration via Self-Supervised Reward Regression. Chen, et al. (2020)</li> -->
+      </ul>
+    </td>
+ </tr>
+
+ <tr>
+    <td><b>Week 10</b> <br> Wed, Mar 20</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Sources of human feedback</td>
+    <td>
+      <p> <i> Further Reading: </i></p>
+      <ul>
+        <li> Learning Robot Objectives from Physical Human Interaction. Bajcsy et al. (2018) </li>
+        <li> Learning Generalizable Robotic Reward Functions from “In-The-Wild” Human Videos. Chen et al. (2021) </li>
+        <li> Correcting Robot Plans with Natural Language Feedback. Sharma et al. (2022)</li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture10-human-feedback.pdf"><b><i>Slides</i></b></a>
+      </p>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+   <tr class="block">
+    <td><b>Week 11</b> <br> Mon, Mar 25</td>
+    <td> <i><span class="label label-lecture text-base">Lecture</span></i> Reliably learning from human feedback</td>
+    <td>
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <!-- <li>Reward-rational (implicit) choice: A unifying formalism for reward learning. Jeon et al. (2020)</li> -->
+        <li>Quantifying Hypothesis Space Misspecification in Learning from Human-Robot Demonstrations and Physical Corrections. Bobu et al. (2020)</li>
+        <li>Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality. Zhang and Cao. (2021)</li>
+        <!-- <li>Inverse Reward Design. Hadfield-Menell et al. (2020)</li> -->
+<!--         <li>The effects of reward misspecification: Mapping and mitigating misaligned models. Pan et al. (2022)</li>
+        <li>Goal Misgeneralization in Deep Reinforcement Learning. Langosco et al. (2023)</li> -->
+      </ul>
+    </td>
+ </tr>
+
+ <tr class="block">
+    <td><b>Week 11</b> <br> Wed, Mar 27</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Reinforcement learning from human feedback</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li><a href="https://arxiv.org/abs/1706.03741">[P1] Deep reinforcement learning from human preferences. Christiano et al. (2017)</a></li>
+        <li><a href="https://arxiv.org/abs/2310.13639">[P2] Contrastive Preference Learning: Learning from Human Feedback without RL. Hejna et al. (2023)</a></li>
+      </ul>
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <li>Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. Capser et al. (2023)</li>
+        <li>Nash Learning from Human Feedback. Munos et al. (2024)</li>
+      </ul>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+ <tr>
+    <td><b>Week 12</b> <br> Mon, Apr 1</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Prof. <a href="https://www.sanjibanchoudhury.com/">Sanjiban Choudhury</a> (Cornell)</td>
+    <td>
+        <p><b>Title:</b> To RL or not to RL</p>
+
+        <p><b>Abstract:</b> Model-based Reinforcement Learning (MBRL) and Inverse Reinforcement Learning (IRL) are powerful techniques that leverage expert demonstrations to learn either models or rewards. However, traditional approaches suffer from a computational weakness: they require repeatedly solving a hard reinforcement learning (RL) problem as a subroutine. This requirement presents a formidable barrier to scalability. Is the RL subroutine necessary?  After all, if the expert already provides a distribution of “good” states, does the learner really need to explore? In this work, we demonstrate an informed MBRL and IRL reduction that utilizes the state distribution of the expert to provide an exponential speedup in theory. In practice, we find that we are able to significantly speed up over prior art on continuous control tasks.</p>
+        <p><b>Materials:</b>
+        <a class="label label-notes text-base" href="https://youtu.be/La-p4D0unmA"><b><i>Recording</i></b></a>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr>
+    <td><b>Week 12</b> <br> Wed, Apr 3</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Alignment</td>
+    <td>
+      <p><b>Required Reading: </b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/2305.18290">[P1] Direct Preference Optimization: Your Language Model is Secretly a Reward Model. Rafailov et al. (2023)</a></li>
+        <li> <a href="https://arxiv.org/abs/2310.07932">[P2] What Matters to You? Towards Visual Representation Alignment for Robot Learning. Tian et al. (2024) </a></li>
+      </ul>
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <!-- <li> Scalable agent alignment via reward modeling: a research direction. Leike et al. (2018)</li> -->
+        <li> Getting aligned on representational alignment. Sucholutsky et al. (2023)</li>
+        <li> AI Alignment: A Comprehensive Survey. Ji et al. (2023)</li>
+      </ul>
+    </td>
+ </tr>
+ 
+   <!--------------------------->   
+ <tr class="block">
+    <td><b>Week 13</b> <br> Mon, Apr 8</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Learning constraints from demonstration </td> <!-- AI Safety, OOD, and Risk in Robotics -->
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/2210.02761">[P1] Learning Autonomous Vehicle Safety Concepts from Demonstrations. Leung, et al. (2023)</a></li>
+        <li> <a href="https://arxiv.org/abs/2309.00711">[P2] Learning Shared Safety Constraints from Multi-task Demonstrations. Kim & Swamy, et al. (2023) </a></li>
+
+      </ul>
+    </td>
+ </tr>
+
+
+ <tr class="block">
+    <td><b>Week 13</b> <br> Wed, Apr 10</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Latent-space safety</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <!-- <li><a href="https://arxiv.org/abs/1705.01292">[P1] A general safety framework for learning-based control in uncertain robotic systems. Fisac, et al. (2018)</a></li> -->
+        <li><a href="https://arxiv.org/abs/2107.04775">[P1] LS3: Latent Space Safe Sets for Long-Horizon Visuomotor Control of Sparse Reward Iterative Tasks. Wilcox & Balakrishna, et al. (2021)</a></li>
+        <li><a href="https://arxiv.org/abs/2211.02736">[P2] Discovering Closed-Loop Failures of Vision-Based Controllers via Reachability Analysis. Chakraborty & Bansal (2023).</a></li>
+        <!-- <li> Conservative safety critics for exploration. Bharadhwaj, et al. (2020).</li>-->
+        <!-- <li><a href="https://arxiv.org/abs/1705.10528">Constrained policy optimization. Achiam, et al. (2017)</a></li> -->
+      </ul>
+<!--       <p><i>Further Reading:</i></p>
+      <uL>
+        <li> Analyzing Human Models that Adapt Online. Bajcsy, et al. (2021)</li>
+        <li> Deception Game: Closing the Safety-Learning Loop in Interactive Robot Autonomy. Hu & Zhang, et al. (2023)</li>
+      </uL> -->
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+ <tr>
+    <td><b>Week 14</b> <br> Mon, Apr 15</td>
+    <td> <i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Prof. <a href="https://www.cs.cmu.edu/~aditirag/">Aditi Raghunathan</a> (CMU)</td>
+    <td> 
+      <p><b>Talk Title:</b> Robust machine learning with foundation models</p>
+      <p><b>Abstract:</b> In recent years, foundation models—large pretrained models that can be adapted for a wide range of tasks—have achieved state-of-the-art performance on a variety of tasks. While the pretrained models are trained on broad data, the adaptation (or fine-tuning) process is often performed on limited data. As a result, the challenges of distribution shift, where a model is deployed on a different distribution as the fine-tuning data remain, albeit in a different form. This talk will provide some concrete instances of this challenge and discuss some principles for developing robust approaches.</p>
+    </td>
+ </tr>
+
+ <tr>
+    <td><b>Week 14</b> <br> Wed, Apr 17</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> What <i>is</i> safety in interactive robotics? </td> <!-- AI Safety, OOD, and Risk in Robotics -->
+    <td>
+      <p><i>Further Reading:</i></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/1710.11040">How Should a Robot Assess Risk? Towards an Axiomatic Theory of Risk in Robotics, Majumdar & Pavone (2017)</a></li>
+        <li> <a href="https://arxiv.org/abs/2212.14020">A System-Level View on Out-of-Distribution Data in Robotics. Sinha et al. (2022) </a></li>
+        <li> <a href="https://arxiv.org/abs/2306.15136">What Truly Matters in Trajectory Prediction for Autonomous Driving? Tran, Wu, Yu, et al. (2023)</a></li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture12-last-lecture.pdf"><b><i>Slides</i></b></a>
+      </p>
+      
+    </td>
+ </tr>
+
+ <!--------------------------->  
+ 
+ <tr class="block">
+    <td><b>Week 15</b> <br> Mon, Apr 22</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td>
+      <i><span class="label label-due text-base">Due</span></i> <b>Slides uploaded to Canvas Apr. 21, 11:59pm ET</b>
+      <p><i>Presenters:</i> Bowen Jiang, Yilin Wu, Weihao (Zack) Zeng, Samuel Li, Sidney Nimako – Boateng, Xilun Zhang
+</p>
+    </td>
+ </tr>
+
+  <tr class="block">
+    <td><b>Week 15</b> <br> Wed, Apr 24</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td><i><span class="label label-due text-base">Due</span></i> <b>Final report uploaded to Canvas on May 1, 11:59pm ET</b>
+    <p><i>Presenters:</i> Jehan Yang, Eliot Xing, Yumeng Xiu, Kavya Puthuveetil
+</p>
+    </td>
+  </tr>
+
+ <!--------------------------->
+  
+
+</table>
+  <!--/ SCHEDULE -->
+
+  <!-- Footer -->
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding-top:0px;">
+    <tbody>
+      <tr>
+      <td class=main>
+      <br>
+      <p></p>
+      <br><br>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--/ Footer -->
+
+</body>
+
+</html>
