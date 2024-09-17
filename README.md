@@ -1,2 +1,2 @@
-# human-robot-interaction
-HRI (Grad) course notes 
+# embodied-AI-safety
+embodied AI safety (Grad) course notes 
