@@ -7,8 +7,8 @@ Apr. 7
   : [Not All Errors](https://arxiv.org/abs/2403.04745), [System-Level OOD](https://arxiv.org/abs/2212.14020), [BYOVLA](https://arxiv.org/abs/2410.01971)
 
 Apr. 9
-: Runtime Monitoring via LLM / VLMs
-  : [Semantic Anomaly Detection](https://arxiv.org/abs/2305.11307), [Failure Modes of Gen. Policies](https://arxiv.org/abs/2410.04640)
+: Failure Monitoring & Reasoning via VLMs
+  : [Semantic Anomaly Detection](https://arxiv.org/abs/2305.11307), [Failure Modes of Gen. Policies](https://arxiv.org/abs/2410.04640), [AHA](https://aha-vlm.github.io/)
 
 Apr. 14
 : Statistical Assurances for Learned Policies
