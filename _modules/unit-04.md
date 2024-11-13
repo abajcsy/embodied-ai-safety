@@ -12,8 +12,8 @@ Apr. 9
 
 Apr. 14
 : Statistical Assurances for Learned Policies
-  : [Verification via CP & Scenario Optimization](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf)
+  : [Statistical Safe Set Verification](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf), [How Generalizable is My BC Policy?](https://arxiv.org/abs/2405.05439)
 
 Apr. 16
 : Controlling In-Distribution
-  : [In-D CBF](https://arxiv.org/abs/2301.12012)
+  : [In-D CBF](https://arxiv.org/abs/2301.12012), [Lyapunov Density Models](https://proceedings.mlr.press/v162/kang22a/kang22a.pdf)
