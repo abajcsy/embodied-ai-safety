@@ -41,7 +41,7 @@ The course is open to graduate students and advanced undergraduates. While there
 <figure style="display: inline-flex;">
 
 <figure>
-<img src="/assets/images/avb.png" alt="Avatar" style="width:200px; height:auto; object-fit: cover; border-radius:50%; padding:20px;">
+<img src="/embodied-ai-safety/assets/images/avb.png" alt="Avatar" style="width:200px; height:auto; object-fit: cover; border-radius:50%; padding:20px;">
 <figcaption style="text-align: center;"><a href="https://www.cs.cmu.edu/~abajcsy/"><button type="button" name="button" class="btn">Andrea Bajcsy</button>
 </a></figcaption>
 </figure>
