@@ -1,0 +1,3 @@
+@media (min-width: 66.5rem) { .main { margin-left: Max(16.5rem, calc((100% - 91.5rem) / 2 + 16.5rem)); } }
+
+.site-nav ul li a { background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%); }
