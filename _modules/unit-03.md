@@ -32,6 +32,6 @@ Mar. 31
   : 
 
 Apr. 2
-: **Guest Lecture**{: .label .label-green} [TBA]()
+: **Guest Lecture**{: .label .label-green} [Max Simchowitz](https://msimchowitz.github.io/) "Mathematical Foundations of Robotic Behavior Cloning"
   : 
 
