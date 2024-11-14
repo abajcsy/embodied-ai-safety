@@ -8,7 +8,7 @@ seo:
 ---
 
 # Embodied Artificial Intelligence Safety 
-Spring 2025. 16-867. Monday / Wednesday 11:00-12:20.
+Spring 2025. 16-886. Monday / Wednesday 11:00-12:20.
 
 ![Image](/assets/images/front-fig2.png)
 
