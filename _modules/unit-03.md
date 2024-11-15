@@ -15,7 +15,7 @@ Mar. 17
   : [Diffusion Policy](https://arxiv.org/pdf/2303.04137), [TBD](https://)
 
 Mar. 19
-: **Guest Lecture**{: .label .label-green} [Anushri Dixit](https://www.anushridixit.com/) Conformal Prediction
+: **Guest Lecture**{: .label .label-green} [Anushri Dixit](https://www.anushridixit.com/), Conformal Prediction
   : [KnowNo](https://arxiv.org/abs/2307.01928), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
 
 Mar. 24
@@ -31,6 +31,6 @@ Mar. 31
   : 
 
 Apr. 2
-: **Guest Lecture**{: .label .label-green} [Max Simchowitz](https://msimchowitz.github.io/) Mathematical Foundations of Robotic Behavior Cloning
+: **Guest Lecture**{: .label .label-green} [Max Simchowitz](https://msimchowitz.github.io/), Mathematical Foundations of Robotic Behavior Cloning
   : 
 
