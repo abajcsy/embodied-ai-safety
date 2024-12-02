@@ -46,5 +46,11 @@ The course is open to graduate students and advanced undergraduates. While there
 </a></figcaption>
 </figure>
 
+<figure>
+<img src="/embodied-ai-safety/assets/images/kn.jpg" alt="Avatar" style="width:200px; height:auto; object-fit: cover; border-radius:50%; padding:20px;">
+<figcaption style="text-align: center;"><a href="https://kensukenk.github.io/"><button type="button" name="button" class="btn">Kensuke Nakamura</button>
+</a></figcaption>
+</figure>
+
 </figure>
 
