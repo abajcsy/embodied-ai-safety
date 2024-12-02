@@ -36,7 +36,7 @@ The course is open to graduate students and advanced undergraduates. While there
 {% endfor %}
 
 
-## Instructors 
+## Instructor
 
 <figure style="display: inline-flex;">
 
@@ -46,6 +46,12 @@ The course is open to graduate students and advanced undergraduates. While there
 </a></figcaption>
 </figure>
 
+</figure>
+
+## Teaching Assistant 
+
+<figure style="display: inline-flex;">
+
 <figure>
 <img src="/embodied-ai-safety/assets/images/kn.jpg" alt="Avatar" style="width:200px; height:auto; object-fit: cover; border-radius:50%; padding:20px;">
 <figcaption style="text-align: center;"><a href="https://kensukenk.github.io/"><button type="button" name="button" class="btn">Kensuke Nakamura</button>
@@ -53,4 +59,5 @@ The course is open to graduate students and advanced undergraduates. While there
 </figure>
 
 </figure>
+
 
