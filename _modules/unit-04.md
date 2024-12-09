@@ -3,15 +3,15 @@ title: Frontiers II
 ---
 
 Apr. 7
-: "System-level" Anomalies
-  : [Not All Errors](https://arxiv.org/abs/2403.04745), [System-Level OOD](https://arxiv.org/abs/2212.14020), [BYOVLA](https://arxiv.org/abs/2410.01971)
+: **Guest Lecture**{: .label .label-green} [Dr. Masha Itkina (TRI)](https://mashaitkina.weebly.com/), Out-of-Distribution and Failure Detection
+  : 
 
 Apr. 9
 : Failure Monitoring & Reasoning via VLMs
   : [Semantic Anomaly Detection](https://arxiv.org/abs/2305.11307), [Failure Modes of Gen. Policies](https://arxiv.org/abs/2410.04640), [AHA](https://aha-vlm.github.io/)
 
 Apr. 14
-: Statistical Assurances for Learned Policies
+: **Guest Lecture**{: .label .label-green} [Dr. Haruki Nishimura (TRI)](https://harukins.github.io/), Statistical Assurances for Learned Policies
   : [Statistical Safe Set Verification](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf), [How Generalizable is My BC Policy?](https://arxiv.org/abs/2405.05439)
 
 Apr. 16
