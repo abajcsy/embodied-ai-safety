@@ -17,7 +17,7 @@ Jan. 20
 Jan. 22
 : Safety Filtering
   : [Data-Driven Safety Filters](https://hybrid-robotics.berkeley.edu/publications/CSM2023_Safety_Filters.pdf), [Model Predictive Sheilding](https://arxiv.org/abs/1905.10691), [Safety & Liveness of Filters](https://arxiv.org/pdf/2312.15347) 
-  **HW1 Released**{: .label .label-default}
+  **HW #1 Out**{: .label .label-default}
 
 Jan. 27
 : Safety Filter Synthesis via Optimal Control
@@ -35,4 +35,4 @@ Feb. 3
 Feb. 5
 : Computational Frameworks for Safety II 
   : [Local Updates](https://arxiv.org/abs/1905.00532), [DeepReach](https://arxiv.org/pdf/2011.02082)
-  **HW1 Due**{: .label .label-yellow}
+  **HW #1 Due**{: .label .label-default}

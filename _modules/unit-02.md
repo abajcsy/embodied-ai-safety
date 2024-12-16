@@ -4,7 +4,7 @@ title: Frontiers I
 
 Feb. 10
 : Semantic Safety I
-  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580) **HW2 Released**{: .label .label-default}
+  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580) **HW #2 Out**{: .label .label-default}
 
 Feb. 12
 : Semantic Safety II
@@ -25,7 +25,7 @@ Feb. 24
 
 Feb. 26
 : Failure Monitoring & Recovery via VLMs
-  : [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) **HW2 Due**{: .label .label-yellow}
+  : [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) **HW #2 Due**{: .label .label-default}
 
 
 Mar. 3

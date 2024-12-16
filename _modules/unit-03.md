@@ -4,7 +4,7 @@ title: Machine Learning & Statistical Safety Foundations
 
 Mar. 10
 : Bayesian Uncertainty Quantification
-  : [Gaussian Process Lecture Notes from Drew Bagnell](https://www.cs.cmu.edu/~16831-f12/notes/F12/16831_lecture20_venkatrn.pdf), [GPs Book](https://gaussianprocess.org/gpml/chapters/RW.pdf) **HW3 Released**{: .label .label-default}
+  : [Gaussian Process Lecture Notes from Drew Bagnell](https://www.cs.cmu.edu/~16831-f12/notes/F12/16831_lecture20_venkatrn.pdf), [GPs Book](https://gaussianprocess.org/gpml/chapters/RW.pdf) **HW #3 Out**{: .label .label-default}
 
 Mar. 12
 : Ensembles 
@@ -34,5 +34,5 @@ Mar. 31
 
 Apr. 2
 : **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), Mathematical Foundations of Robotic Behavior Cloning
-  : **HW3 Due**{: .label .label-yellow}
+  : **HW #3 Due**{: .label .label-default}
 
