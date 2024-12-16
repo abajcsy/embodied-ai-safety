@@ -4,15 +4,15 @@ title: Frontiers I
 
 Feb. 10
 : Semantic Safety I
-  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580)
+  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580) **HW2 Released**{: .label .label-default}
 
 Feb. 12
 : Semantic Safety II
-  : [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [Semantically Safe Robot Manipulation](https://arxiv.org/abs/2410.15185)
+  : [Semantically Safe Robot Manipulation](https://arxiv.org/abs/2410.15185), [SALT](https://arxiv.org/abs/2409.09883)
 
 Feb. 17
-: Multi-Agent Safety 
-  : [Deception Game](https://arxiv.org/abs/2309.01267), [SALT](https://arxiv.org/abs/2409.09883)
+: Belief-Space Safety
+  : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
   **Homework Due**{: .label .label-yellow}
 
 Feb. 19
@@ -25,8 +25,8 @@ Feb. 24
   : [Human-AI Safety](https://arxiv.org/abs/2405.09794)
 
 Feb. 26
-: Risk-Aware Decision-Making 
-  : [What is Risk in Robotics?](https://arxiv.org/abs/1710.11040), [Risk-Calibrated Interaction](https://arxiv.org/abs/2403.15959)
+: Failure Monitoring & Recovery via VLMs
+  : [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) **HW2 Due**{: .label .label-yellow}
 
 
 Mar. 3

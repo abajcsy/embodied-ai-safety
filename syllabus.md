@@ -91,11 +91,10 @@ decided if you are doing a project on your own or in a group. Midway through the
 
 Percentage | Activity  | 
 ------|-----|
-5%| Participation |
-10%| HW |
+10%| Attendance |
+30%| HW (3 homeworks, 10% each) |
 10%| Paper Summaries |
-15%| Paper Presentations |
-20%| Midterm Project Report |
+10%| Midterm Project Report |
 40%| Final Project |
 
 ## Paper Summaries & Presentations
