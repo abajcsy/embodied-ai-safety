@@ -13,7 +13,6 @@ Feb. 12
 Feb. 17
 : Belief-Space Safety
   : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
-  **Homework Due**{: .label .label-yellow}
 
 Feb. 19
 : Latent-Space Safety I 
