@@ -4,7 +4,7 @@ title: Frontiers I
 
 Feb. 10
 : Semantic Safety I
-  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580) **HW #2 Out**{: .label .label-default}
+  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [Local Updates](https://arxiv.org/abs/1905.00532) **HW #2 Out**{: .label .label-default}
 
 Feb. 12
 : Semantic Safety II

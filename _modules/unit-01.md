@@ -34,5 +34,5 @@ Feb. 3
 
 Feb. 5
 : Computational Frameworks for Safety II 
-  : [Local Updates](https://arxiv.org/abs/1905.00532), [DeepReach](https://arxiv.org/pdf/2011.02082)
+  : [DeepReach](https://arxiv.org/pdf/2011.02082), [One Filter to Deploy Them All](https://arxiv.org/abs/2412.09989)
   **HW #1 Due**{: .label .label-default}
