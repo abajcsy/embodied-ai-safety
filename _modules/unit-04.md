@@ -8,7 +8,7 @@ Apr. 7
 
 Apr. 9
 : Controlling In-Distribution
-  : [In-D CBF](https://arxiv.org/abs/2301.12012), [Lyapunov Density Models](https://proceedings.mlr.press/v162/kang22a/kang22a.pdf)
+  : **Paper Reading**{: .label .label-red} [In-D CBF](https://arxiv.org/abs/2301.12012), [Lyapunov Density Models](https://proceedings.mlr.press/v162/kang22a/kang22a.pdf)
 
 
 Apr. 14
@@ -17,4 +17,4 @@ Apr. 14
 
 Apr. 16
 : Statistical Assurances
-  : [Statistical Safe Set Verification](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf), [How Generalizable is My BC Policy?](https://arxiv.org/abs/2405.05439)
+  : **Paper Reading**{: .label .label-red} [Statistical Safe Set Verification](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf), [How Generalizable is My BC Policy?](https://arxiv.org/abs/2405.05439)

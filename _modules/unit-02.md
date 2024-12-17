@@ -4,11 +4,12 @@ title: Frontiers I
 
 Feb. 10
 : Semantic Safety I
-  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [Local Updates](https://arxiv.org/abs/1905.00532) **HW #2 Out**{: .label .label-default}
+  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [Local Updates](https://arxiv.org/abs/1905.00532) 
+  <!-- **HW #2 Out**{: .label .label-default} -->
 
 Feb. 12
 : Semantic Safety II
-  : [Semantically Safe Robot Manipulation](https://arxiv.org/abs/2410.15185), [SALT](https://arxiv.org/abs/2409.09883)
+  : **Paper Reading**{: .label .label-red} [Semantically Safe Robot Manipulation](https://arxiv.org/abs/2410.15185), [SALT](https://arxiv.org/abs/2409.09883)
 
 Feb. 17
 : Belief-Space Safety
@@ -21,11 +22,11 @@ Feb. 19
 
 Feb. 24
 : Latent-Space Safety II 
-  : [Human-AI Safety](https://arxiv.org/abs/2405.09794)
+  : **Paper Reading**{: .label .label-red} [Human-AI Safety](https://arxiv.org/abs/2405.09794)
 
 Feb. 26
 : Failure Monitoring & Recovery via VLMs
-  : [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) **HW #2 Due**{: .label .label-default}
+  : **HW #2 Due**{: .label .label-default} **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) 
 
 
 Mar. 3
