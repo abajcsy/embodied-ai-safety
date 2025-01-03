@@ -29,7 +29,7 @@ In this graduate seminar class, we study the question of if (and how) modern art
 - **Location**: TBD
 
 ## Prerequisites
-The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making, machine learning, differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. 
+The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making (e.g., optimal control, reinforcement learning, markov decision processes, etc.), machine learning (e.g., supervised learning, deep learning), differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. 
 
 ## Textbooks
 There is no need buy any textbook for this course. We will provide lecture notes in this course. The following are companion textbooks that can provide useful further reading: 
@@ -41,15 +41,12 @@ There is no need buy any textbook for this course. We will provide lecture notes
 
 ## Attendance
 Class attendance and participation are key for both your and your peer’s success in this class.
-You are expected to attend class in person during the scheduled time, including the final presen-
-tations. I understand that occasionally you may have challenges attending (e.g., illness, religious
+You are expected to attend class in person during the scheduled time, including the final presentations. I understand that occasionally you may have challenges attending (e.g., illness, religious
 observance, etc.). However, if you anticipate having a challenge regularly attending class, please
 contact me.
 
 ## Academic Integrity
-Honesty and transparency are important features of good scholarship. On the flip side, plagia-
-rism and cheating are serious academic offenses with serious consequences. If you are discov-
-ered engaging in either behavior in this course, you will earn a failing grade on the assignment
+Honesty and transparency are important features of good scholarship. On the flip side, plagiarism and cheating are serious academic offenses with serious consequences. If you are discovered engaging in either behavior in this course, you will earn a failing grade on the assignment
 in question, and further disciplinary action may be taken.
 We encourage you to work together on projects and homework assignments and to make use of
 campus resources like Student Academic Success Center (SASC) to assist you in your pursuit of
@@ -84,10 +81,9 @@ This course will have no exams. Instead, grading will be broken down by
 
 - **Participation**: We want students to attend lectures in person consistently. Students are permitted *2 unexecused absenses*, no questions asked, before being docked.
 - **Paper Summaries & Presentations**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
-- **Homeworks**: This course will have a few (1-2) implementation-based homeworks that allow you to apply techniques from the class.
-- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. Early in the semester we ask for a required, 0% project proposal that takes the form of an extended abstract: you want to motivate the topic you have
-chosen and the technical questions that you want to investigate. By this stage, you should have
-decided if you are doing a project on your own or in a group. Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
+- **Homeworks**: This course will have a few (3) implementation-based homeworks that allow you to apply techniques from the class.
+- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. 
+We offer an **opportunity for extra credit** if you discuss your project idea with a course staff member and write a 1 paragraph summary of your idea and discussion which you submit to canvas before Spring break.  By this stage, you should have decided if you are doing a project on your own or in a group and you want to motivate the topic you have chosen and the technical questions that you want to investigate. Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
 
 Percentage | Activity  | 
 ------|-----|
@@ -112,8 +108,7 @@ the semester. On each paper discussion day, there will be a set of discussion to
 generated for each of the papers. In your group, you will discuss the assigned topics. In each
 group, one person will be randomly assigned to be the group representative who, after the in-
 class discussion period, will come up and present on the group’s conclusions. The whole class
-will engage the presenter on their conclusions and takeaways. *(Note: this paper presentation
-structure is subject to change based on class size).*
+will engage the presenter on their conclusions and takeaways. *(Note: this paper presentation structure is subject to change based on class size).*
 
 ## Health & Wellness
 Take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.

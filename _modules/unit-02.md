@@ -17,12 +17,12 @@ Feb. 17
 
 Feb. 19
 : Latent-Space Safety I 
-  : [Dreamer](https://arxiv.org/pdf/2301.04104), [TBD](https://)
+  : [Dreamer](https://arxiv.org/pdf/2301.04104), [Human-AI Safety](https://arxiv.org/abs/2405.09794)
   <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/) -->
 
 Feb. 24
 : Latent-Space Safety II 
-  : **Paper Reading**{: .label .label-red} [Human-AI Safety](https://arxiv.org/abs/2405.09794)
+  : **Paper Reading**{: .label .label-red} [TBA](), [LS3](https://arxiv.org/abs/2107.04775)
 
 Feb. 26
 : Failure Monitoring & Recovery via VLMs

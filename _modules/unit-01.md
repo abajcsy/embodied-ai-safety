@@ -30,7 +30,7 @@ Jan. 29
 
 Feb. 3
 : Computational Frameworks for Safety I 
-  : [Discounted Reachability](https://ieeexplore.ieee.org/document/8794107), [ISAACS](https://arxiv.org/abs/2212.03228)
+  : [Discounted Reachability](https://files.davidqiu.com/research/papers/2019_fisac_Bridging%20Hamilton-Jacobi%20Safety%20Analysis%20and%20Reinforcement%20Learning%20%5BRL%5D%5BConstraints%5D.pdf), [ISAACS](https://arxiv.org/abs/2212.03228)
 
 Feb. 5
 : Computational Frameworks for Safety II 
