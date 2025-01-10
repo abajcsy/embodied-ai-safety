@@ -79,7 +79,7 @@ Resources, we encourage you to contact them at [access@andrew.cmu.edu](access@an
 ## Grading
 This course will have no exams. Instead, grading will be broken down by 
 
-- **Participation**: We want students to attend lectures in person consistently. Students are permitted *2 unexecused absenses*, no questions asked, before being docked.
+- **Attendance**: We want students to attend lectures in person consistently. Students are permitted *2 unexcused absences*, no questions asked, before being docked.
 - **Paper Summaries & Presentations**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
 - **Homeworks**: This course will have a few (3) implementation-based homeworks that allow you to apply techniques from the class.
 - **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. 

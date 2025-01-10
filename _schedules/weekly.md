@@ -24,14 +24,18 @@ schedule:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: TBD
+        location: NSH 3002
   - name: Tuesday
   - name: Wednesday
     events:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: TBD
+        location: NSH 3002
+      - name: Office Hours (Andrea)
+        start: 1:00 PM
+        end: 2:00 PM
+        location: NSH 4629
   - name: Thursday
   - name: Friday
 ---
