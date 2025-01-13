@@ -25,8 +25,8 @@ In this graduate seminar class, we study the question of if (and how) modern art
 - **Title**: Embodied Artificial Intelligence Safety, Spring 2025
 - **Course Number**: 16-886
 - **Lecture**: 11:00AM--12:20PM EST, Mon & Wed
-- **Office Hours**: TBD
-- **Location**: TBD
+- **Location**: NSH 3002
+- **Office Hours**: Please see "Schedule" tab
 
 ## Prerequisites
 The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making (e.g., optimal control, reinforcement learning, markov decision processes, etc.), machine learning (e.g., supervised learning, deep learning), differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. 
