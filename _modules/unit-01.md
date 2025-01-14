@@ -3,7 +3,7 @@ title: Control-Theoretic Safety Foundations
 ---
 
 Jan. 13
-: Course Overview
+: Course Overview  &nbsp; [[Slides]](./assets/pdfs/Lecture1_intro.pdf)
   : [Syllabus](https://abajcsy.github.io/embodied-ai-safety/syllabus/)
 
 Jan. 15

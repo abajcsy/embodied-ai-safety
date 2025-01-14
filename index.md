@@ -13,10 +13,15 @@ Spring 2025. 16-886. Monday / Wednesday 11:00-12:20.
 ![Image](/assets/images/front-fig2.png)
 
 ## Announcements 
-{% assign announcements = site.announcements | reverse %}
+<!-- Displays All Annoucements -->
+<!-- {% assign announcements = site.announcements | reverse %}
 {% for announcement in announcements %}
 {{ announcement }}
-{% endfor %}
+{% endfor %} -->
+
+<!-- Displays Most Recent Annoucement -->
+{% assign announcement = site.announcements | reverse | first %}
+{{ announcement }}
 
 ## Course Overview 
 Safety is a nuanced concept. For embodied systems, like robots, we commonly equate safety with collision-avoidance. But out in the “open world” it can be much more: for example, a safe mobile manipulator should understand when it is not confident about a requested task and understand that areas roped off by caution tape should never be breached. However, designing systems with such a nuanced understanding is an outstanding challenge, especially in the era of large robot behavior models. 
