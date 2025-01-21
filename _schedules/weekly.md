@@ -26,6 +26,11 @@ schedule:
         end: 12:20 PM
         location: NSH 3002
   - name: Tuesday
+    events:
+      - name: Office Hours (Ken)
+        start: 1:00 PM
+        end: 2:00 PM
+        location: NSH 1511
   - name: Wednesday
     events:
       - name: Lecture
