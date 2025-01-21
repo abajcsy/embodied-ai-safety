@@ -5,5 +5,5 @@ email: kensuken@andrew.cmu.edu
 website: https://kensukenk.github.io/
 photo: kn.jpg
 meta:
-  Office Hours: TBA
+  Office Hours: Tuesdays 1-2 PM NSH 1511
 ---
