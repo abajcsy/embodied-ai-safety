@@ -15,7 +15,7 @@ Jan. 20
   : 
 
 Jan. 22
-: Safety Filtering
+: Safety Filtering [[Notes]](./assets/pdfs/Lecture2_safety_filtering.pdf)
   : [Data-Driven Safety Filters](https://hybrid-robotics.berkeley.edu/publications/CSM2023_Safety_Filters.pdf), [Model Predictive Sheilding](https://arxiv.org/abs/1905.10691), [Safety & Liveness of Filters](https://arxiv.org/pdf/2312.15347) 
   <!-- **HW #1 Out**{: .label .label-default} -->
 
