@@ -25,11 +25,11 @@ Jan. 27
 
 
 Jan. 29
-: Robust Safety
+: Robust Safety I &nbsp; [[Notes]](./assets/pdfs/Lecture4_synthesis_and_robust_safety.pdf)
   : [Differential Games](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2008/RM1391.pdf), [HJ Reach-Avoid Games I](https://www.cs.ubc.ca/~mitchell/Papers/publishedIEEEtac05.pdf), [HJ Reach-Avoid Games II](https://arxiv.org/pdf/0911.4625)
 
 Feb. 3
-: Computational Frameworks for Safety I 
+: Robust Safety II & Computational Frameworks I 
   : [Discounted Reachability](https://files.davidqiu.com/research/papers/2019_fisac_Bridging%20Hamilton-Jacobi%20Safety%20Analysis%20and%20Reinforcement%20Learning%20%5BRL%5D%5BConstraints%5D.pdf), [ISAACS](https://arxiv.org/abs/2212.03228)
 
 Feb. 5
