@@ -25,14 +25,14 @@ Jan. 27
 
 
 Jan. 29
-: Robust Safety I &nbsp; [[Notes]](./assets/pdfs/Lecture4_synthesis_and_robust_safety.pdf)
+: Synthesis & Robust Safety I &nbsp; [[Notes]](./assets/pdfs/Lecture4_synthesis_and_robust_safety.pdf)
   : [Differential Games](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2008/RM1391.pdf), [HJ Reach-Avoid Games I](https://www.cs.ubc.ca/~mitchell/Papers/publishedIEEEtac05.pdf), [HJ Reach-Avoid Games II](https://arxiv.org/pdf/0911.4625)
 
 Feb. 3
-: Robust Safety II & Computational Frameworks I 
-  : [Discounted Reachability](https://files.davidqiu.com/research/papers/2019_fisac_Bridging%20Hamilton-Jacobi%20Safety%20Analysis%20and%20Reinforcement%20Learning%20%5BRL%5D%5BConstraints%5D.pdf), [ISAACS](https://arxiv.org/abs/2212.03228)
+: Robust Safety II &nbsp; [[Notes]](./assets/pdfs/Lecture5_robust_safety_II.pdf)
+  : 
 
 Feb. 5
-: Computational Frameworks for Safety II 
-  : **HW #1 Due**{: .label .label-default} [DeepReach](https://arxiv.org/pdf/2011.02082), [One Filter to Deploy Them All](https://arxiv.org/abs/2412.09989)
+: Computational Frameworks for Safety 
+  : **HW #1 Due**{: .label .label-default} [Discounted Reachability](https://files.davidqiu.com/research/papers/2019_fisac_Bridging%20Hamilton-Jacobi%20Safety%20Analysis%20and%20Reinforcement%20Learning%20%5BRL%5D%5BConstraints%5D.pdf), [ISAACS](https://arxiv.org/abs/2212.03228), [DeepReach](https://arxiv.org/pdf/2011.02082)
   
