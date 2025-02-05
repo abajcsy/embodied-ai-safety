@@ -33,6 +33,6 @@ Feb. 3
   : 
 
 Feb. 5
-: Computational Frameworks for Safety 
-  : **HW #1 Due**{: .label .label-default} [Discounted Reachability](https://files.davidqiu.com/research/papers/2019_fisac_Bridging%20Hamilton-Jacobi%20Safety%20Analysis%20and%20Reinforcement%20Learning%20%5BRL%5D%5BConstraints%5D.pdf), [ISAACS](https://arxiv.org/abs/2212.03228), [DeepReach](https://arxiv.org/pdf/2011.02082)
+: Computational Frameworks for Safety &nbsp; [[Notes]](./assets/pdfs/Lecture6_computational_frameworks.pdf) 
+  : **HW #1 Due**{: .label .label-default} [Discounted Reachability](https://ieeexplore.ieee.org/document/8794107), [ISAACS](https://arxiv.org/abs/2212.03228), [DeepReach](https://arxiv.org/pdf/2011.02082)
   
