@@ -22,11 +22,11 @@ Feb. 19
 
 Feb. 24
 : Latent-Space Safety II 
-  : **Paper Reading**{: .label .label-red} [TBA](), [LS3](https://arxiv.org/abs/2107.04775)
+  : **Paper Reading**{: .label .label-red} [Latent Safety Filters](https://arxiv.org/abs/2502.00935), [LS3](https://arxiv.org/abs/2107.04775)
 
 Feb. 26
 : Failure Monitoring & Recovery via VLMs
-  : **HW #2 Due**{: .label .label-default} **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [AHA](https://aha-vlm.github.io/) 
+  : **HW #2 Due**{: .label .label-default} **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [FOREWARN](https://arxiv.org/abs/2502.01828) 
 
 
 Mar. 3
