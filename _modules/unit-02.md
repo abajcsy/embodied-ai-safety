@@ -3,13 +3,13 @@ title: Frontiers I
 ---
 
 Feb. 10
-: Semantic Safety I
-  : [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [Local Updates](https://arxiv.org/abs/1905.00532) 
+: Updating Safety Online
+  : , [Local Updates](https://arxiv.org/abs/1905.00532), [Parameterized Reachability](https://arxiv.org/pdf/2209.14976) 
   <!-- **HW #2 Out**{: .label .label-default} -->
 
 Feb. 12
-: Semantic Safety II
-  : **Paper Reading**{: .label .label-red} [Semantically Safe Robot Manipulation](https://arxiv.org/abs/2410.15185), [SALT](https://arxiv.org/abs/2409.09883)
+: Semantic Safety 
+  : **Paper Reading**{: .label .label-red} [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [SALT](https://arxiv.org/abs/2409.09883)
 
 Feb. 17
 : Belief-Space Safety
