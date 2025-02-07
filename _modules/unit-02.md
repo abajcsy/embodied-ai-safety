@@ -4,7 +4,7 @@ title: Frontiers I
 
 Feb. 10
 : Updating Safety Online
-  : [Local Updates](https://arxiv.org/abs/1905.00532), [Parameterized Reachability](https://arxiv.org/pdf/2209.14976) 
+  : [Reachability Adapted with Gaussian Processes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493361), [Local Updates](https://arxiv.org/abs/1905.00532), [Parameterized Reachability](https://arxiv.org/pdf/2209.14976) 
   <!-- **HW #2 Out**{: .label .label-default} -->
 
 Feb. 12
