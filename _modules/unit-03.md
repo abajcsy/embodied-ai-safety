@@ -9,7 +9,7 @@ Mar. 10
 
 Mar. 12
 : Ensembles 
-  : **Mid-term Report Due**{: .label .label-yellow}[Ensembles](https://arxiv.org/abs/1612.01474), [EnsembleDAgger](https://arxiv.org/abs/1807.08364)   
+  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Ensembles](https://arxiv.org/abs/1612.01474), [EnsembleDAgger](https://arxiv.org/abs/1807.08364)   
 
 
 Mar. 17
