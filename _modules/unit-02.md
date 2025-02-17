@@ -12,7 +12,7 @@ Feb. 12
   : **Paper Reading**{: .label .label-red} [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [SALT](https://arxiv.org/abs/2409.09883)
 
 Feb. 17
-: ~~Belief-Space Safety~~ Project Brainstorming
+: ~~Belief-Space Safety~~ Project Brainstorming &nbsp; [[Slides]](./assets/pdfs/Project-Brainstorming.pdf) 
   : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
 
 Feb. 19
