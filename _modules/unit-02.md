@@ -16,12 +16,12 @@ Feb. 17
   : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
 
 Feb. 19
-: Latent-Space Safety I 
+: From Belief to Latent-Space Safety
   : [Dreamer](https://arxiv.org/pdf/2301.04104), [Human-AI Safety](https://arxiv.org/abs/2405.09794)
   <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/) -->
 
 Feb. 24
-: Latent-Space Safety II 
+: Latent-Space Safety 
   : **Paper Reading**{: .label .label-red} [Latent Safety Filters](https://arxiv.org/abs/2502.00935), [LS3](https://arxiv.org/abs/2107.04775)
 
 Feb. 26
