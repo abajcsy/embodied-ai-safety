@@ -17,7 +17,8 @@ Feb. 17
 
 Feb. 19
 : From Belief to Latent-Space Safety &nbsp; [[Notes]](./assets/pdfs/KEN_lecture_notes.pdf) [[Slides]](./assets/pdfs/KEN_lecture_slides.pdf)
-  
+  : [Deception Game](https://arxiv.org/abs/2309.01267), [Latent Safety Filters](https://arxiv.org/abs/2502.00935)
+  <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/) -->
 
 Feb. 24
 : Latent-Space Safety 
