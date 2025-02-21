@@ -16,9 +16,8 @@ Feb. 17
   : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
 
 Feb. 19
-: From Belief to Latent-Space Safety
-  : [Dreamer](https://arxiv.org/pdf/2301.04104), [Human-AI Safety](https://arxiv.org/abs/2405.09794)
-  <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/) -->
+: From Belief to Latent-Space Safety &nbsp; [[Notes]](./assets/pdfs/KEN_lecture_notes.pdf) [[Slides]](./assets/pdfs/KEN_lecture_slides.pdf)
+  
 
 Feb. 24
 : Latent-Space Safety 
