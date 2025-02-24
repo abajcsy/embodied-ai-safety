@@ -30,7 +30,7 @@ Feb. 26
 
 
 Feb. 28
-: 
+:  **No Class**{: .label .label-purple}
   : **HW #2 Due**{: .label .label-default} 
 
 
