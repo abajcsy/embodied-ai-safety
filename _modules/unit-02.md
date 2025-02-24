@@ -26,7 +26,7 @@ Feb. 24
 
 Feb. 26
 : Failure Monitoring & Recovery via VLMs
-  : **HW #2 Due**{: .label .label-default} **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [FOREWARN](https://arxiv.org/abs/2502.01828) 
+  : **HW #2 Due: Feb 28**{: .label .label-default} **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [FOREWARN](https://arxiv.org/abs/2502.01828) 
 
 
 Mar. 3
