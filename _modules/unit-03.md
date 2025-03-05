@@ -3,18 +3,18 @@ title: Machine Learning & Statistical Safety Foundations
 ---
 
 Mar. 10
-: Bayesian Uncertainty Quantification
-  : [Gaussian Process Lecture Notes from Drew Bagnell](https://www.cs.cmu.edu/~16831-f12/notes/F12/16831_lecture20_venkatrn.pdf), [GPs Book](https://gaussianprocess.org/gpml/chapters/RW.pdf) 
+: Uncertainty Quantification I 
+  : [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf) 
   <!-- **HW #3 Out**{: .label .label-default} -->
 
 Mar. 12
-: Ensembles 
-  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Ensembles](https://arxiv.org/abs/1612.01474), [EnsembleDAgger](https://arxiv.org/abs/1807.08364)   
+: Uncertainty Quantification II
+  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806)   
 
 
 Mar. 17
 : Uncertainty in Large Behavior Models
-  : **Paper Reading**{: .label .label-red} [Diffusion Policy](https://arxiv.org/pdf/2303.04137), [TBD](https://) 
+  : **Paper Reading**{: .label .label-red} [Diffusion Policy](https://arxiv.org/pdf/2303.04137), [EnsembleDAgger](https://arxiv.org/abs/1807.08364) 
 
 Mar. 19
 : **Guest Lecture**{: .label .label-green} [Prof. Anushri Dixit (UCLA)](https://www.anushridixit.com/), Conformal Prediction
