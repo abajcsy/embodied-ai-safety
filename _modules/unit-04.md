@@ -2,6 +2,11 @@
 title: Frontiers II 
 ---
 
+Apr. 2
+: **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), Mathematical Foundations of Robotic Behavior Cloning
+  : **HW #3 Due**{: .label .label-default}
+
+
 Apr. 7
 : **Guest Lecture**{: .label .label-green} [Dr. Masha Itkina (TRI)](https://mashaitkina.weebly.com/), Out-of-Distribution and Failure Detection
   : 

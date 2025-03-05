@@ -33,7 +33,3 @@ Mar. 31
 : **Guest Lecture**{: .label .label-green} [Ran (Thomas) Tian (UC Berkeley)](https://thomasrantian.github.io/) Alignment
   : [CPL](https://arxiv.org/pdf/2310.13639), [Max Alignment Min Feedback](https://arxiv.org/abs/2412.04835)
 
-Apr. 2
-: **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), Mathematical Foundations of Robotic Behavior Cloning
-  : **HW #3 Due**{: .label .label-default}
-
