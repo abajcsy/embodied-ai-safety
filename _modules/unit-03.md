@@ -3,13 +3,13 @@ title: Machine Learning & Statistical Safety Foundations
 ---
 
 Mar. 10
-: Uncertainty Quantification I 
-  : [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf) 
+: Uncertainty Quantification I &nbsp; [[Notes]](./assets/pdfs/Lecture9_uq_pt1.pdf)
+  : [On the Calibration of Modern NNs](https://arxiv.org/abs/1706.04599), [Prof. Eric Nalisnick's](https://enalisnick.github.io/) research and talks
   <!-- **HW #3 Out**{: .label .label-default} -->
 
 Mar. 12
 : Uncertainty Quantification II
-  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806)   
+  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf)   
 
 
 Mar. 17
