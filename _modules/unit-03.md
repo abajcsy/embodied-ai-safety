@@ -8,17 +8,19 @@ Mar. 10
   <!-- **HW #3 Out**{: .label .label-default} -->
 
 Mar. 12
-: Uncertainty Quantification II
-  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf)   
+: Uncertainty Quantification II &nbsp; [[Notes]](./assets/pdfs/Lecture10_uq_pt2.pdf)
+  : **Mid-term Report Due: March 14**{: .label .label-yellow}[Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf), [What Are Bayesian NN Posteriors Really Like?](https://proceedings.mlr.press/v139/izmailov21a/izmailov21a.pdf)   
 
 
 Mar. 17
 : Uncertainty in Large Behavior Models
-  : **Paper Reading**{: .label .label-red} [Diffusion Policy](https://arxiv.org/pdf/2303.04137), [EnsembleDAgger](https://arxiv.org/abs/1807.08364) 
+  : **Paper Reading**{: .label .label-red} [EnsembleDAgger](https://arxiv.org/abs/1807.08364), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928) 
+<!-- [Diffusion Policy](https://arxiv.org/pdf/2303.04137) -->
+
 
 Mar. 19
 : **Guest Lecture**{: .label .label-green} [Prof. Anushri Dixit (UCLA)](https://www.anushridixit.com/), Conformal Prediction
-  : [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [KnowNo](https://arxiv.org/abs/2307.01928), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
+  : [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
 
 Mar. 24
 : "System-level" Anomalies
