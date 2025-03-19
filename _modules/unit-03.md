@@ -19,7 +19,7 @@ Mar. 17
 
 
 Mar. 19
-: **Guest Lecture**{: .label .label-green} [Prof. Anushri Dixit (UCLA)](https://www.anushridixit.com/), Conformal Prediction
+: **Guest Lecture**{: .label .label-green} [Prof. Anushri Dixit (UCLA)](https://www.anushridixit.com/), Conformal Prediction &nbsp; [[Video]](https://drive.google.com/file/d/1huVnpgnhYUCRZ8tHBNaGK6VNS8wZYaZ-/view?usp=drive_link)
   : [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
 
 Mar. 24
