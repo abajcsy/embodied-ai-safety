@@ -23,13 +23,12 @@ Mar. 19
   : [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
 
 Mar. 24
-: "System-level" Anomalies
+: "System-level" Anomalies &nbsp; [[Notes]](./assets/pdfs/Lecture11_system-level-UQ-1.pdf) [[Slides]](./assets/pdfs/Lecture11_system-level-UQ-2.pdf)
   : [Not All Errors](https://arxiv.org/abs/2403.04745), [System-Level OOD](https://arxiv.org/abs/2212.14020), [BYOVLA](https://arxiv.org/abs/2410.01971)
 
 Mar. 26 
 : Risk-Aware Decision-Making 
   : **Paper Reading**{: .label .label-red} [What is Risk in Robotics?](https://arxiv.org/abs/1710.11040), [Risk-Calibrated Interaction](https://arxiv.org/abs/2403.15959)
-
 
 Mar. 31
 : **Guest Lecture**{: .label .label-green} [Ran (Thomas) Tian (UC Berkeley)](https://thomasrantian.github.io/) Alignment
