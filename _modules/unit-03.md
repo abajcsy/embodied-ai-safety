@@ -31,6 +31,6 @@ Mar. 26
   : **Paper Reading**{: .label .label-red} [What is Risk in Robotics?](https://arxiv.org/abs/1710.11040), [Risk-Calibrated Interaction](https://arxiv.org/abs/2403.15959)
 
 Mar. 31
-: **Guest Lecture**{: .label .label-green} [Ran (Thomas) Tian (UC Berkeley)](https://thomasrantian.github.io/) Alignment
+: **Guest Lecture**{: .label .label-green} [Ran (Thomas) Tian (UC Berkeley)](https://thomasrantian.github.io/) Alignment &nbsp; [[Slides]](./assets/pdfs/RanTian_Safe_and_Aligned_Embodied_AI.pdf)
   : [CPL](https://arxiv.org/pdf/2310.13639), [Max Alignment Min Feedback](https://arxiv.org/abs/2412.04835)
 
