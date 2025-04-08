@@ -3,8 +3,8 @@ title: Frontiers II
 ---
 
 Apr. 2
-: **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), Mathematical Foundations of Robotic Behavior Cloning
-  : **HW #3 Due**{: .label .label-default}
+: **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), The Pitfalls of Imitation Learning when Actions are Continuous
+  : **HW #3 Due**{: .label .label-default} [paper](https://arxiv.org/abs/2503.09722)
 
 
 Apr. 7
