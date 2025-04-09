@@ -5,7 +5,7 @@ title: Project Presentations
 Apr. 21
 : Project Presentations
   : **Slides Due 11:59 pm ET, April 20**{: .label .label-yellow}
-  **Presenters:** (Arun, Steven), Tiffany, (Yishu, Yining H.), Emanuel, Chenyang, (Kush, Saksham, Saudamini)
+  **Presenters:** (Arun, Steven), Tiffany, (Yishu, Yining H.), Emanuel, Chenyang, Yiqi, (Kush, Saksham, Saudamini)
 
 
 Apr. 23
