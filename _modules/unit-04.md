@@ -4,7 +4,7 @@ title: Frontiers II
 
 Apr. 2
 : **Guest Lecture**{: .label .label-green} [Prof. Max Simchowitz (CMU)](https://msimchowitz.github.io/), The Pitfalls of Imitation Learning when Actions are Continuous
-  : **HW #3 Due**{: .label .label-default} [paper](https://arxiv.org/abs/2503.09722)
+  : **HW #3 Due**{: .label .label-default} [Pitfalls of IL](https://arxiv.org/abs/2503.09722)
 
 
 Apr. 7
@@ -18,7 +18,7 @@ Apr. 9
 
 Apr. 14
 : **Guest Lecture**{: .label .label-green} [Dr. Haruki Nishimura (TRI)](https://harukins.github.io/), Statistical Assurances for Learned Policies
-  : 
+  : [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491) 
 
 Apr. 16
 : Statistical Assurances
