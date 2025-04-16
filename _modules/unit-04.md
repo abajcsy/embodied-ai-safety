@@ -18,7 +18,7 @@ Apr. 9
 
 Apr. 14
 : **Guest Lecture**{: .label .label-green} [Dr. Haruki Nishimura (TRI)](https://harukins.github.io/), Statistical Assurances for Learned Policies
-  : [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491) 
+  : [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491), [Misinterpretations of Statistical Tests](https://www.bfr-akademie.de/media/wysiwyg/2023/EpiStud2023/statistical-tests-p-values-confidence-intervals-and-power-a-guide-to-misinterpretat.pdf)
 
 Apr. 16
 : Statistical Assurances
