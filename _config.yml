@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: EAIS SP25
+title: EAIS SP26
 description: Website for EAIS course.
 author: Andrea Bajcsy
 # baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
