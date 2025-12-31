@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Home",
     "title": "Embodied Artificial Intelligence Safety",
-    "content": "Spring 2025. 16-886. Monday / Wednesday 11:00-12:20. ",
+    "content": "Spring 2026. 16-886. Monday / Wednesday 11:00-12:20. GHC 4215. ",
     "url": "/#embodied-artificial-intelligence-safety",
     
     "relUrl": "/#embodied-artificial-intelligence-safety"
@@ -15,242 +15,249 @@
   },"2": {
     "doc": "Home",
     "title": "Hello!",
-    "content": "Nov 12 &middot; 0 min read See you next semester! 🤓 . ",
+    "content": "Jan 1 &middot; 0 min read See you soon! 🤓 . --> ",
     "url": "/",
     
     "relUrl": "/"
   },"3": {
+    "doc": "Home",
+    "title": "Hello!",
+    "content": "Jan 1 &middot; 0 min read See you soon! 🤓 . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"4": {
     "doc": "Home",
     "title": "Course Overview",
     "content": "Safety is a nuanced concept. For embodied systems, like robots, we commonly equate safety with collision-avoidance. But out in the “open world” it can be much more: for example, a safe mobile manipulator should understand when it is not confident about a requested task and understand that areas roped off by caution tape should never be breached. However, designing systems with such a nuanced understanding is an outstanding challenge, especially in the era of large robot behavior models. In this graduate seminar class, we study the question of if (and how) the rise of modern artificial intelligence (AI) models (e.g., deep neural trajectory predictors, large vision-language models, and latent world models) can be harnessed to unlock new avenues for generalizing safety to the open world. From a foundations perspective, we study safety methods from two complementary communities: control theory (which enables the computation of safe decisions) and machine learning (which enables uncertainty quantification and anomaly detection). Throughout the class, there will also be several guest lectures from experts in the field. Students will practice essential research skills including reviewing papers, writing project proposals, and technical communication. Prerequisites . The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making, machine learning, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. ",
     "url": "/#course-overview",
     
     "relUrl": "/#course-overview"
-  },"4": {
+  },"5": {
     "doc": "Home",
     "title": "Schedule (Tentative)",
     "content": " ",
     "url": "/#schedule-tentative",
     
     "relUrl": "/#schedule-tentative"
-  },"5": {
+  },"6": {
     "doc": "Home",
     "title": "Control-Theoretic Safety Foundations",
-    "content": "Jan. 13 Course Overview Syllabus Jan. 15 Sequential Decision-Making Jan. 20 No Class MLK Day Jan. 22 Dynamic Games / Robust Control Differential Games I Jan. 27 Safety Analysis HJI Jan. 29 Safety Filtering Data-Driven Safety Filters, Model Predictive Sheilding, Safety &amp; Liveness of Filters Feb. 3 Computational Frameworks for Safety I Local Updates, DeepReach Project Proposal Due Feb. 5 Computational Frameworks for Safety II Discounted Reachability, ISAACS ",
+    "content": "Jan. 12 Course Overview Syllabus Jan. 14 Sequential Decision-Making Jan. 19 No Class MLK Day Jan. 21 Why is Safe Control Hard and What are Safety Filters? Data-Driven Safety Filters, Model Predictive Sheilding Jan. 26 Safety Filter Synthesis via Optimal Control HJ Reachability Overview, HJ Viscosity Solution Jan. 28 Robust Safety I Differential Games, HJ Reach-Avoid Games I, HJ Reach-Avoid Games II Feb. 2 Robust Safety II Feb. 4 Computation: Reinforcement Learning HW #1 Due Discounted Reachability, ISAACS Feb. 9 Computation: Supervised Learning &amp; PINNs DeepReach ",
     "url": "/#control-theoretic-safety-foundations",
     
     "relUrl": "/#control-theoretic-safety-foundations"
-  },"6": {
+  },"7": {
     "doc": "Home",
     "title": "Frontiers I",
-    "content": "Feb. 10 Semantic Safety I Safety Representations from Language Feb. 12 Semantic Safety II LLM Fallbacks, Semantically Safe Robot Manipulation Feb. 17 Multi-Agent Safety Deception Game, SALT Homework Due Feb. 19 Latent-Space Safety I Dreamer, TBD Feb. 24 Latent-Space Safety II Human-AI Safety Feb. 26 Risk-Aware Decision-Making What is Risk in Robotics?, Risk-Calibrated Interaction Mar. 3 No Class Spring Break 🏝️ Mar. 5 No Class Spring Break 🏝️ ",
+    "content": "Feb. 11 Updating Safety Online Parameterized Reachability, Reachability Adapted with Gaussian Processes, Local Updates, AnySafe Feb. 16 “Semantic Safety” Project Proposal Due ASIMOV, Safety Representations from Language, SALT Feb. 18 Latent-Space Safety Latent Safety Filters, How to Train Your Latent CBF, Safety Filters for LLM Agents Feb. 23 Latent-Space Safety Paper Reading Latent Representations for Provable Safety, What You Don’t Know Can Hurt You Feb. 25 Runtime Monitoring &amp; Recovery via VLMs HW #2 Due: Feb 28 Paper Reading LLM Fallbacks, FOREWARN Mar. 2 No Class Spring Break 🏝️ Mar. 4 No Class Spring Break 🏝️ ",
     "url": "/#frontiers-i",
     
     "relUrl": "/#frontiers-i"
-  },"7": {
+  },"8": {
     "doc": "Home",
     "title": "Machine Learning &amp; Statistical Safety Foundations",
-    "content": "Mar. 10 Bayesian Uncertainty Quantification Gaussian Process Lecture Notes from Drew Bagnell, GPs Book Mar. 12 Ensembles Ensembles, EnsembleDAgger Mid-term Report Due Mar. 17 Uncertainty in Large Behavior Models Diffusion Policy, TBD Mar. 19 Guest Lecture Prof. Anushri Dixit (UCLA), Conformal Prediction KnowNo, Perceive With Confidence Mar. 24 Alignment CPL, TBD Mar. 26 PAC-Bayes Generalization Generalization in IL Policies Mar. 31 “System-level” Anomalies Not All Errors, System-Level OOD, BYOVLA Apr. 2 Guest Lecture Prof. Max Simchowitz (CMU), Mathematical Foundations of Robotic Behavior Cloning ",
+    "content": "Mar. 9 Uncertainty Quantification I On the Calibration of Modern NNs, Prof. Eric Nalisnick’s research and talks Mar. 11 Mid-term Project Pitches Mid-term Presentation Due Mar. 16 Uncertainty Quantification II Deep Ensembles, Deep Laplace Approx, Gaussian Processes Book Mar. 18 Conformal Prediction Mid-term Report Due: March 18 Gentle Intro to Conformal, Perceive With Confidence Mar. 23 Quantifying and Resolving Robot Uncertainty Paper Reading EnsembleDAgger, Robots that Ask for Help Mar. 25 System vs. Component-Level Anomalies System-Level OOD, Not All Errors, BYOVLA Mar. 30 Risk-Aware Decision-Making Paper Reading What is Risk in Robotics?, Risk-Calibrated Interaction ",
     "url": "/#machine-learning-statistical-safety-foundations",
     
     "relUrl": "/#machine-learning-statistical-safety-foundations"
-  },"8": {
+  },"9": {
     "doc": "Home",
     "title": "Frontiers II",
-    "content": "Apr. 7 Guest Lecture Dr. Masha Itkina (TRI), Out-of-Distribution and Failure Detection Apr. 9 Failure Monitoring &amp; Reasoning via VLMs Semantic Anomaly Detection, Failure Modes of Gen. Policies, AHA Apr. 14 Guest Lecture Dr. Haruki Nishimura (TRI), Statistical Assurances for Learned Policies Statistical Safe Set Verification, How Generalizable is My BC Policy? Apr. 16 Controlling In-Distribution In-D CBF, Lyapunov Density Models ",
+    "content": "Apr. 1 Guest Lecture Red-Teaming for Robotics HW #3 Due Apr. 6 Controlling In-Distribution UNISafe, In-D CBF, Lyapunov Density Models, DynaGuide Apr. 8 Uncertainty in Generative Models Paper Reading How Confident are Video Models?, World Models that Know When They Don’t Know Apr. 13 Statistical Testing of Learned Policies Robot Learning as an Empirical Science, Misinterpretations of Statistical Tests Apr. 15 Statistical Testing of Learned Policies Paper Reading Statistical Safe Set Verification, How Generalizable is My BC Policy? ",
     "url": "/#frontiers-ii",
     
     "relUrl": "/#frontiers-ii"
-  },"9": {
+  },"10": {
     "doc": "Home",
     "title": "Project Presentations",
-    "content": "Apr. 21 Project Presentations Slides Due 11:59 pm ET, April 20 Presenters TBD Apr. 23 Project Presentations Project Report Due May 1 Presenters TBD ",
+    "content": "Apr. 20 Project Presentations Slides Due 11:59 pm ET, April 19 Apr. 22 Project Presentations Project Report Due May 1 ",
     "url": "/#project-presentations",
     
     "relUrl": "/#project-presentations"
-  },"10": {
+  },"11": {
     "doc": "Home",
     "title": "Instructor",
     "content": "Andrea Bajcsy ",
     "url": "/#instructor",
     
     "relUrl": "/#instructor"
-  },"11": {
+  },"12": {
     "doc": "Home",
     "title": "Teaching Assistant",
-    "content": "Kensuke Nakamura ",
+    "content": "Junwon Seo ",
     "url": "/#teaching-assistant",
     
     "relUrl": "/#teaching-assistant"
-  },"12": {
+  },"13": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"13": {
+  },"14": {
     "doc": "Schedule",
     "title": "Weekly Schedule",
     "content": ". | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
     "url": "/schedule/#weekly-schedule",
     
     "relUrl": "/schedule/#weekly-schedule"
-  },"14": {
+  },"15": {
     "doc": "Schedule",
     "title": "Monday",
-    "content": ". | Lecture 11:00 AM–12:20 PM TBD | . | ",
+    "content": ". | Lecture 11:00 AM–12:20 PM GHC 4215 | . | ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"15": {
+  },"16": {
     "doc": "Schedule",
     "title": "Tuesday",
     "content": "| ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"16": {
+  },"17": {
     "doc": "Schedule",
     "title": "Wednesday",
-    "content": ". | Lecture 11:00 AM–12:20 PM TBD | . | ",
+    "content": ". | Lecture 11:00 AM–12:20 PM GHC 4215 | Office Hours (Andrea) 1:00 PM–2:00 PM NSH 4629 | . | ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"17": {
+  },"18": {
     "doc": "Schedule",
     "title": "Thursday",
     "content": "| ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"18": {
+  },"19": {
     "doc": "Schedule",
     "title": "Friday",
     "content": "| . ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"19": {
+  },"20": {
     "doc": "Schedule",
     "title": "Schedule",
     "content": " ",
     "url": "/schedule/",
     
     "relUrl": "/schedule/"
-  },"20": {
+  },"21": {
     "doc": "Staff",
     "title": "Staff",
     "content": " ",
     "url": "/staff/",
     
     "relUrl": "/staff/"
-  },"21": {
+  },"22": {
     "doc": "Staff",
     "title": "Instructor",
-    "content": "Andrea Bajcsy . abajcsy@cmu.edu . Office Hours TBA . ",
+    "content": "Andrea Bajcsy . abajcsy@cmu.edu . Office Hours Wednesdays 1-2 PM NSH 4629 . ",
     "url": "/staff/#instructor",
     
     "relUrl": "/staff/#instructor"
-  },"22": {
+  },"23": {
     "doc": "Staff",
     "title": "Teaching Assistant",
-    "content": "Kensuke (Ken) Nakamura . kensuken@andrew.cmu.edu . Office Hours TBA . ",
+    "content": "Junwon Seo . junwonse@andrew.cmu.edu . Office Hours TBA . ",
     "url": "/staff/#teaching-assistant",
     
     "relUrl": "/staff/#teaching-assistant"
-  },"23": {
+  },"24": {
     "doc": "Syllabus",
     "title": "Syllabus",
     "content": " ",
     "url": "/syllabus/",
     
     "relUrl": "/syllabus/"
-  },"24": {
+  },"25": {
     "doc": "Syllabus",
     "title": "Table of Contents",
-    "content": ". | Overview | Logistics | Prerequisites | Textbooks | Attendance | Academic Integrity | Late Policy | Accommodations for Students with Disabilities | Communication | Grading | Paper Summaries &amp; Presentations . | Paper Summaries | Paper Presentations | . | Health &amp; Wellness | . ",
+    "content": ". | Overview | Logistics | Prerequisites | Textbooks | Attendance | Academic Integrity | Late Policy | Accommodations for Students with Disabilities | Communication | Grading | Paper Discussion Days | Health &amp; Wellness | . ",
     "url": "/syllabus/#table-of-contents",
     
     "relUrl": "/syllabus/#table-of-contents"
-  },"25": {
+  },"26": {
     "doc": "Syllabus",
     "title": "Overview",
     "content": "Safety is a nuanced concept. For embodied systems, like robots, we commonly equate safety with collision-avoidance. But out in the “open world” it can be much more: for example, a safe mobile manipulator should understand when it is not confident about a requested task and understand that areas roped off by caution tape should never be breached. However, designing systems with such a nuanced understanding is an outstanding challenge, especially in the era of large robot behavior models. In this graduate seminar class, we study the question of if (and how) modern artificial intelligence (AI) models (e.g., deep neural trajectory predictors, large vision-language models, and latent world models) can be harnessed to unlock new avenues for generalizing safety to the open world. From a foundations perspective, we study safety methods from two complementary communities: control theory (which enables the computation of safe decisions) and machine learning (which enables uncertainty quantification and anomaly detection). Throughout the class, there will be several guest lectures from experts in the field. Students will practice essential research skills including reviewing papers, writing project proposals, and technical communication. ",
     "url": "/syllabus/#overview",
     
     "relUrl": "/syllabus/#overview"
-  },"26": {
+  },"27": {
     "doc": "Syllabus",
     "title": "Logistics",
-    "content": ". | Title: Embodied Artificial Intelligence Safety, Spring 2025 | Course Number: 16-886 | Lecture: 11:00AM–12:20PM EST, Mon &amp; Wed | Office Hours: TBD | Location: TBD | . ",
+    "content": ". | Title: Embodied Artificial Intelligence Safety, Spring 2026 | Course Number: 16-886 | Lecture: 11:00AM–12:20PM EST, Mon &amp; Wed | Location: GHC 4215 | Office Hours: Please see “Schedule” tab | . ",
     "url": "/syllabus/#logistics",
     
     "relUrl": "/syllabus/#logistics"
-  },"27": {
+  },"28": {
     "doc": "Syllabus",
     "title": "Prerequisites",
-    "content": "The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making, machine learning, differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. ",
+    "content": "The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making (e.g., optimal control, reinforcement learning, markov decision processes, etc.), machine learning (e.g., supervised learning, deep learning), differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python and machine learning tools like Pytorch / Tensorflow are also strongly encouraged. ",
     "url": "/syllabus/#prerequisites",
     
     "relUrl": "/syllabus/#prerequisites"
-  },"28": {
+  },"29": {
     "doc": "Syllabus",
     "title": "Textbooks",
     "content": "There is no need buy any textbook for this course. We will provide lecture notes in this course. The following are companion textbooks that can provide useful further reading: . | Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach | Tamer Basar and Geert Jan Olsder, Dynamic Noncooperative Game Theory, 2nd Edition | Dimitri Bertsekas, Reinforcement Learning and Optimal Control | Richard S. Sutton and Andrew G. Barto, Reinforcement Learning: An Introduction | Jorge Nocedal and Stephen J. Wright, Numerical Optimization | . ",
     "url": "/syllabus/#textbooks",
     
     "relUrl": "/syllabus/#textbooks"
-  },"29": {
+  },"30": {
     "doc": "Syllabus",
     "title": "Attendance",
-    "content": "Class attendance and participation are key for both your and your peer’s success in this class. You are expected to attend class in person during the scheduled time, including the final presen- tations. I understand that occasionally you may have challenges attending (e.g., illness, religious observance, etc.). However, if you anticipate having a challenge regularly attending class, please contact me. ",
+    "content": "Class attendance and participation are key for both your and your peer’s success in this class. You are expected to attend class in person during the scheduled time, including the final presentations. I understand that occasionally you may have challenges attending (e.g., illness, religious observance, etc.). However, if you anticipate having a challenge regularly attending class, please contact me. ",
     "url": "/syllabus/#attendance",
     
     "relUrl": "/syllabus/#attendance"
-  },"30": {
+  },"31": {
     "doc": "Syllabus",
     "title": "Academic Integrity",
-    "content": "Honesty and transparency are important features of good scholarship. On the flip side, plagia- rism and cheating are serious academic offenses with serious consequences. If you are discov- ered engaging in either behavior in this course, you will earn a failing grade on the assignment in question, and further disciplinary action may be taken. We encourage you to work together on projects and homework assignments and to make use of campus resources like Student Academic Success Center (SASC) to assist you in your pursuit of academic excellence. However, please note that in accord with the university’s policy you must acknowledge any collaboration or assistance that you receive on work that is to be graded, either from a person, reference, or a tool (including AI-generation tools like ChatGPT). ",
+    "content": "Honesty and transparency are important features of good scholarship. On the flip side, plagiarism and cheating are serious academic offenses with serious consequences. If you are discovered engaging in either behavior in this course, you will earn a failing grade on the assignment in question, and further disciplinary action may be taken. We encourage you to work together on projects and homework assignments and to make use of campus resources like Student Academic Success Center (SASC) to assist you in your pursuit of academic excellence. However, please note that in accord with the university’s policy you must acknowledge any collaboration or assistance that you receive on work that is to be graded, either from a person, reference, or a tool (including AI-generation tools like ChatGPT). ",
     "url": "/syllabus/#academic-integrity",
     
     "relUrl": "/syllabus/#academic-integrity"
-  },"31": {
+  },"32": {
     "doc": "Syllabus",
     "title": "Late Policy",
     "content": "All homeworks and assignments are assigned due dates and should be submitted through the relevant Canvas portal. If you cannot submit an assignment on time, my default will be to reduce the grade by 10% for each 24 hour period, up to three days, that the assignment is late. This will be automatically applied; you do not have to request it. After three days, the assignment will receive a zero. If you experience an unforseeable emergency and would like me to consider waiving the late penalty, please email me as early as possible to discuss this request. The 10% per day deduction does not apply to unexcused late presentations, which will receive a zero immediately, because they will affect our ability to hold class. Re-scheduling presentations will be based on schedule availability and the professor’s discretion. ",
     "url": "/syllabus/#late-policy",
     
     "relUrl": "/syllabus/#late-policy"
-  },"32": {
+  },"33": {
     "doc": "Syllabus",
     "title": "Accommodations for Students with Disabilities",
     "content": "If you would like to receive accommodation for a documented disability, please first contact Disability Resources (access@andrew.cmu.edu or 412-268-2013). Let us know as soon as possible so we can discuss reasonable accommodations. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at access@andrew.cmu.edu. ",
     "url": "/syllabus/#accommodations-for-students-with-disabilities",
     
     "relUrl": "/syllabus/#accommodations-for-students-with-disabilities"
-  },"33": {
+  },"34": {
     "doc": "Syllabus",
     "title": "Communication",
     "content": ". | Website: We will use the class website for posting course content (e.g., lecture notes, paper readings, lecture recordings). | Canvas: We will use Canvas for uploading all assignments and grades. | Email: If you email your instructors, please include the substring “[EAIS Course]” to begin a meaningful subject line and have tried to resolve the issue appropriately otherwise. Please use your CMU email account. | . ",
     "url": "/syllabus/#communication",
     
     "relUrl": "/syllabus/#communication"
-  },"34": {
+  },"35": {
     "doc": "Syllabus",
     "title": "Grading",
-    "content": "This course will have no exams. Instead, grading will be broken down by . | Participation: We want students to attend lectures in person consistently. Students are permitted 2 unexecused absenses, no questions asked, before being docked. | Paper Summaries &amp; Presentations: One goal we have for this course is for you to understand how to consume, explain, and critique research papers. Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. | Homeworks: This course will have a few (1-2) implementation-based homeworks that allow you to apply techniques from the class. | Project: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. Early in the semester we ask for a required, 0% project proposal that takes the form of an extended abstract: you want to motivate the topic you have chosen and the technical questions that you want to investigate. By this stage, you should have decided if you are doing a project on your own or in a group. Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages). | . | Percentage | Activity | . | 5% | Participation | . | 10% | HW | . | 10% | Paper Summaries | . | 15% | Paper Presentations | . | 20% | Midterm Project Report | . | 40% | Final Project | . ",
+    "content": "This course will have no exams. Instead, grading will be broken down by the following categories, with maximal emphasis on a project that is completed throughout the semester. | Percentage | Activity | . | 10% | Attendance | . | 25% | HW (3x) | . | 5% | Paper Summaries | . | 5% | Project Proposal | . | 20% | Midterm Project Report (Report + Presentation) | . | 35% | Final Project (Report + Presentation) | . | Attendance: We want students to attend lectures in person consistently. Students are permitted 2 unexcused absences, no questions asked, before being docked. | Homeworks: This course will have a few Python implementation-based homeworks that allow you to apply techniques from the class. | Paper Summaries &amp; Discussions: One goal we have for this course is for you to understand how to consume, explain, and critique research papers. There will be several paper discussion days during which you will be assigned research papers to read. Paper discussions occur in-class. Before a paper discussion day, you are expected to complete all assigned readings and submit paper summaries to Canvas by 10am ET of the day the reading will be discussed. The paper summaries must answer the following questions: . | What does safety “mean” in this work? | Does the notion of safety apply to a single component / model of the autonomy pipeline, or to the overall “system”? Justify. | What do you like about this work? | . | Project: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art). You must work in a group of min 3 and max 5 people. Explicit permission from Andrea must be granted if you want to work on an independent project. To help you make progress throughout the semester, we have three check-points: . | Project Proposal: Early in the semester, students will submit a project proposal / pitch via Canvas. | Midterm Project Check-in: Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. | Final Project: The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages). | . | . ",
     "url": "/syllabus/#grading",
     
     "relUrl": "/syllabus/#grading"
-  },"35": {
-    "doc": "Syllabus",
-    "title": "Paper Summaries &amp; Presentations",
-    "content": "Paper Summaries . There will be several paper discussion days during which you will be as- signed research papers to read. You are expected to complete all assigned readings before class and come prepared with comments and questions to discuss with the group. You will share 1–2 paragraphs with your takeaways or questions on each reading on Canvas, by 10am ET of the day the reading will be discussed. Paper Presentations . During paper discussion days, we will dive into two papers. During the very first discussion day, we will randomly assign you into groups that you will keep throughout the semester. On each paper discussion day, there will be a set of discussion topics we have generated for each of the papers. In your group, you will discuss the assigned topics. In each group, one person will be randomly assigned to be the group representative who, after the in- class discussion period, will come up and present on the group’s conclusions. The whole class will engage the presenter on their conclusions and takeaways. (Note: this paper presentation structure is subject to change based on class size). ",
-    "url": "/syllabus/#paper-summaries--presentations",
-    
-    "relUrl": "/syllabus/#paper-summaries--presentations"
   },"36": {
+    "doc": "Syllabus",
+    "title": "Paper Discussion Days",
+    "content": "During paper discussion days, we will dive into two papers. During the very first discussion day, we will randomly assign you into groups that you will keep throughout the semester. On each paper discussion day, there will be a set of discussion topics we have generated for each of the papers. In your group, you will discuss the assigned topics. In each group, one person will be randomly assigned to be the group representative who, after the in-class discussion period, will come up and present on the group’s conclusions. The whole class will engage the presenter on their conclusions and takeaways. (Note: this paper presentation structure is subject to change based on class size). ",
+    "url": "/syllabus/#paper-discussion-days",
+    
+    "relUrl": "/syllabus/#paper-discussion-days"
+  },"37": {
     "doc": "Syllabus",
     "title": "Health &amp; Wellness",
     "content": "Take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is almost always helpful. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling/. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night: . CaPS: 412-268-2922 . Re:solve Crisis Network: 888-796-8226 . ",

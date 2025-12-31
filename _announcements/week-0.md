@@ -1,7 +1,7 @@
 ---
 title: Hello!
 week: 0
-date: 2024-11-12
+date: 2026-01-01
 ---
 
-See you next semester! 🤓
+See you soon! 🤓

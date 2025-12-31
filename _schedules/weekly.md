@@ -24,19 +24,14 @@ schedule:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: NSH 3002
+        location: GHC 4215
   - name: Tuesday
-    events:
-      - name: Office Hours (Ken)
-        start: 1:00 PM
-        end: 2:00 PM
-        location: NSH 1511
   - name: Wednesday
     events:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: NSH 3002
+        location: GHC 4215
       - name: Office Hours (Andrea)
         start: 1:00 PM
         end: 2:00 PM

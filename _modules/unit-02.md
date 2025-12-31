@@ -2,38 +2,34 @@
 title: Frontiers I 
 ---
 
-Feb. 10
-: Updating Safety Online  &nbsp; [[Notes]](./assets/pdfs/Lecture7_ssl_approx.pdf) [[Slides]](./assets/pdfs/Lecture7_online_updates.pdf)
-  : [Reachability Adapted with Gaussian Processes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493361), [Local Updates](https://arxiv.org/abs/1905.00532), [Parameterized Reachability](https://arxiv.org/pdf/2209.14976) 
-  <!-- **HW #2 Out**{: .label .label-default} -->
+Feb. 11
+: Updating Safety Online 
+  : [Parameterized Reachability](https://arxiv.org/pdf/2209.14976), [Reachability Adapted with Gaussian Processes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493361), [Local Updates](https://arxiv.org/abs/1905.00532), [AnySafe](https://arxiv.org/abs/2509.19555)
 
-Feb. 12
-: Semantic Safety 
-  : **Paper Reading**{: .label .label-red} [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [SALT](https://arxiv.org/abs/2409.09883)
+Feb. 16
+: "Semantic Safety"
+  : **Project Proposal Due**{: .label .label-yellow} [ASIMOV](https://asimov-benchmark.github.io/v1/), [Safety Representations from Language](https://arxiv.org/abs/2409.14580), [SALT](https://arxiv.org/abs/2409.09883)
 
-Feb. 17
-: ~~Belief-Space Safety~~ Project Brainstorming &nbsp; [[Slides]](./assets/pdfs/Project-Brainstorming.pdf) 
-  : [Deception Game](https://arxiv.org/abs/2309.01267), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746)
-
-Feb. 19
-: From Belief to Latent-Space Safety &nbsp; [[Notes]](./assets/pdfs/KEN_lecture_notes.pdf) [[Slides]](./assets/pdfs/KEN_lecture_slides.pdf)
-  : [Deception Game](https://arxiv.org/abs/2309.01267), [Latent Safety Filters](https://arxiv.org/abs/2502.00935)
-  <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/) -->
-
-Feb. 24
+Feb. 18
 : Latent-Space Safety 
-  : **Paper Reading**{: .label .label-red} [Latent Safety Filters](https://arxiv.org/abs/2502.00935), [LS3](https://arxiv.org/abs/2107.04775)
+  : [Latent Safety Filters](https://arxiv.org/abs/2502.00935), [How to Train Your Latent CBF](https://arxiv.org/abs/2511.18606), [Safety Filters for LLM Agents](https://arxiv.org/abs/2510.13727)
+  <!-- [TD-MPC](https://www.nicklashansen.com/td-mpc/), [Analyzing Models that Adapt Online](https://arxiv.org/abs/2103.05746), [Deception Game](https://arxiv.org/abs/2309.01267) -->
+<!-- &nbsp; [[Notes]](./assets/pdfs/KEN_lecture_notes.pdf) [[Slides]](./assets/pdfs/KEN_lecture_slides.pdf) -->
 
-Feb. 26
-: Failure Monitoring & Recovery via VLMs
+Feb. 23
+: Latent-Space Safety 
+  : **Paper Reading**{: .label .label-red} [Latent Representations for Provable Safety](https://arxiv.org/abs/2505.23210), [What You Don't Know *Can* Hurt You](https://arxiv.org/abs/2510.06492)
+
+Feb. 25
+: Runtime Monitoring & Recovery via VLMs
   : **HW #2 Due: Feb 28**{: .label .label-default}  **Paper Reading**{: .label .label-red} [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [FOREWARN](https://arxiv.org/abs/2502.01828) 
 
 
-Mar. 3
+Mar. 2
 : **No Class**{: .label .label-purple} Spring Break 🏝️
   : 
 
 
-Mar. 5
+Mar. 4
 : **No Class**{: .label .label-purple} Spring Break 🏝️
   : 

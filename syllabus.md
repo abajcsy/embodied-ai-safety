@@ -22,14 +22,14 @@ Safety is a nuanced concept. For embodied systems, like robots, we commonly equa
 In this graduate seminar class, we study the question of if (and how) modern artificial intelligence (AI) models (e.g., deep neural trajectory predictors, large vision-language models, and latent world models) can be harnessed to unlock new avenues for generalizing safety to the open world. From a foundations perspective, we study safety methods from two complementary communities: control theory (which enables the computation of safe decisions) and machine learning (which enables uncertainty quantification and anomaly detection). Throughout the class, there will be several guest lectures from experts in the field. Students will practice essential research skills including reviewing papers, writing project proposals, and technical communication.
 
 ## Logistics
-- **Title**: Embodied Artificial Intelligence Safety, Spring 2025
+- **Title**: Embodied Artificial Intelligence Safety, Spring 2026
 - **Course Number**: 16-886
 - **Lecture**: 11:00AM--12:20PM EST, Mon & Wed
-- **Location**: NSH 3002
+- **Location**: GHC 4215
 - **Office Hours**: Please see "Schedule" tab
 
 ## Prerequisites
-The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making (e.g., optimal control, reinforcement learning, markov decision processes, etc.), machine learning (e.g., supervised learning, deep learning), differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python or MATLAB are also strongly encouraged. 
+The course is open to graduate students and advanced undergraduates. While there are no strict prerequisites, familiarity with sequential decision-making (e.g., optimal control, reinforcement learning, markov decision processes, etc.), machine learning (e.g., supervised learning, deep learning), differential equations, optimization, and probability are highly encouraged. Experience with high-level programming languages like Python and machine learning tools like Pytorch / Tensorflow are also strongly encouraged. 
 
 ## Textbooks
 There is no need buy any textbook for this course. We will provide lecture notes in this course. The following are companion textbooks that can provide useful further reading: 
@@ -41,13 +41,10 @@ There is no need buy any textbook for this course. We will provide lecture notes
 
 ## Attendance
 Class attendance and participation are key for both your and your peer’s success in this class.
-You are expected to attend class in person during the scheduled time, including the final presentations. I understand that occasionally you may have challenges attending (e.g., illness, religious
-observance, etc.). However, if you anticipate having a challenge regularly attending class, please
-contact me.
+You are expected to attend class in person during the scheduled time, including the final presentations. I understand that occasionally you may have challenges attending (e.g., illness, religious observance, etc.). However, if you anticipate having a challenge regularly attending class, please contact me.
 
 ## Academic Integrity
-Honesty and transparency are important features of good scholarship. On the flip side, plagiarism and cheating are serious academic offenses with serious consequences. If you are discovered engaging in either behavior in this course, you will earn a failing grade on the assignment
-in question, and further disciplinary action may be taken.
+Honesty and transparency are important features of good scholarship. On the flip side, plagiarism and cheating are serious academic offenses with serious consequences. If you are discovered engaging in either behavior in this course, you will earn a failing grade on the assignment in question, and further disciplinary action may be taken.
 We encourage you to work together on projects and homework assignments and to make use of
 campus resources like Student Academic Success Center (SASC) to assist you in your pursuit of
 academic excellence. However, please note that in accord with the university’s policy you must
@@ -77,37 +74,41 @@ Resources, we encourage you to contact them at [access@andrew.cmu.edu](access@an
 - **Email**: If you email your instructors, please include the substring "[EAIS Course]" to begin a meaningful subject line and have tried to resolve the issue appropriately otherwise. Please use your CMU email account.
 
 ## Grading
-This course will have no exams. Instead, grading will be broken down by 
-
-- **Attendance**: We want students to attend lectures in person consistently. Students are permitted *2 unexcused absences*, no questions asked, before being docked.
-- **Paper Summaries & Presentations**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
-- **Homeworks**: This course will have a few (3) implementation-based homeworks that allow you to apply techniques from the class.
-- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art) or an exploration of an original research idea. 
-You can choose to work individually or in groups of up to three. We offer an **opportunity for extra credit** if you discuss your project idea with a course staff member and write a 1 paragraph summary of your idea and discussion which you submit to canvas before Spring break.  By this stage, you should have decided if you are doing a project on your own or in a group and you want to motivate the topic you have chosen and the technical questions that you want to investigate. Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
+This course will have no exams. Instead, grading will be broken down by the following categories, with maximal emphasis on a project that is completed throughout the semester.
 
 Percentage | Activity  | 
 ------|-----|
 10%| Attendance |
-30%| HW (3 homeworks, 10% each) |
-10%| Paper Summaries |
-10%| Midterm Project Report |
-40%| Final Project |
+25%| HW (3x) |
+5%| Paper Summaries |
+5%| Project Proposal |
+20%| Midterm Project Report (Report + Presentation) |
+35%| Final Project (Report + Presentation) |
 
-## Paper Summaries & Presentations
-### Paper Summaries
-There will be several paper discussion days during which you will be as-
-signed research papers to read. You are expected to complete all assigned readings before class
-and come prepared with comments and questions to discuss with the group. You will share 1–2
-paragraphs with your takeaways or questions on each reading on Canvas, by **10am ET of the
-day the reading will be discussed.**
 
-### Paper Presentations
+- **Attendance**: We want students to attend lectures in person consistently. Students are permitted *2 unexcused absences*, no questions asked, before being docked.
+- **Homeworks**: This course will have a few Python implementation-based homeworks that allow you to apply techniques from the class.
+- **Paper Summaries & Discussions**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers. 
+There will be several paper discussion days during which you will be assigned research papers to read. Paper discussions occur in-class. Before a paper discussion day, you are expected to complete all assigned readings and submit paper summaries to Canvas by **10am ET of the
+day the reading will be discussed.** The **paper summaries must answer the following questions:**
+1. What does safety "mean" in this work? 
+2. Does the notion of safety apply to a single component / model of the autonomy pipeline, or to the overall "system"? Justify. 
+3. What do you like about this work?
+
+- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art).
+**You must work in a group of min 3 and max 5 people. Explicit permission from Andrea must be granted if you want to work on an independent project.** To help you make progress throughout the semester, we have three check-points:
+	* *Project Proposal:* Early in the semester, students will submit a project proposal / pitch via Canvas. 
+	* *Midterm Project Check-in:* Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. 
+	* *Final Project:* The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages).
+
+
+## Paper Discussion Days
+
 During paper discussion days, we will dive into two papers. During the
 very first discussion day, we will randomly assign you into groups that you will keep throughout
 the semester. On each paper discussion day, there will be a set of discussion topics we have
 generated for each of the papers. In your group, you will discuss the assigned topics. In each
-group, one person will be randomly assigned to be the group representative who, after the in-
-class discussion period, will come up and present on the group’s conclusions. The whole class
+group, one person will be randomly assigned to be the group representative who, after the in-class discussion period, will come up and present on the group’s conclusions. The whole class
 will engage the presenter on their conclusions and takeaways. *(Note: this paper presentation structure is subject to change based on class size).*
 
 ## Health & Wellness
