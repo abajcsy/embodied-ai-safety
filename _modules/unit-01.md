@@ -39,7 +39,7 @@ Feb. 2
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture5_robust_safety_II.pdf) -->
 
 Feb. 4
-: Computation: Reinforcement Learning
+: **Guest Lecture**{: .label .label-green} Computation: Reinforcement Learning [(Kensuke Nakamura)](https://kensukenk.github.io/)
   : **HW #1 Due**{: .label .label-default} [Discounted Reachability](https://ieeexplore.ieee.org/document/8794107), [ISAACS](https://arxiv.org/abs/2212.03228)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture6_computational_frameworks.pdf)  -->
 
