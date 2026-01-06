@@ -39,12 +39,12 @@ Feb. 2
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture5_robust_safety_II.pdf) -->
 
 Feb. 4
-: **Guest Lecture**{: .label .label-green} Computation: Reinforcement Learning [(Kensuke Nakamura)](https://kensukenk.github.io/)
+: **Guest Lecture**{: .label .label-green} Computation I: Reinforcement Learning [(Kensuke Nakamura)](https://kensukenk.github.io/)
   : **HW #1 Due**{: .label .label-default} [Discounted Reachability](https://ieeexplore.ieee.org/document/8794107), [ISAACS](https://arxiv.org/abs/2212.03228)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture6_computational_frameworks.pdf)  -->
 
 Feb. 9
-: Computation: Supervised Learning & PINNs
+: Computation II: Self-Supervised Learning 
   : [DeepReach](https://arxiv.org/pdf/2011.02082)
   <!-- **HW #2 Out**{: .label .label-default} -->
 <!--  &nbsp; [[Notes]](./assets/pdfs/Lecture7_ssl_approx.pdf) [[Slides]](./assets/pdfs/Lecture7_online_updates.pdf) -->
