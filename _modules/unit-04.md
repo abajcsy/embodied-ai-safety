@@ -3,8 +3,8 @@ title: Frontiers II
 ---
 
 Apr. 1
-: **Guest Lecture**{: .label .label-green} Red-Teaming for Robotics
-  : **HW #3 Due**{: .label .label-default} 
+: Statistical Testing of Learned Policies
+  : **HW #3 Due**{: .label .label-default} [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491), [Misinterpretations of Statistical Tests](https://www.bfr-akademie.de/media/wysiwyg/2023/EpiStud2023/statistical-tests-p-values-confidence-intervals-and-power-a-guide-to-misinterpretat.pdf)
 
 
 Apr. 6
@@ -18,8 +18,9 @@ Apr. 8
 
 
 Apr. 13
-: Statistical Testing of Learned Policies
-  : [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491), [Misinterpretations of Statistical Tests](https://www.bfr-akademie.de/media/wysiwyg/2023/EpiStud2023/statistical-tests-p-values-confidence-intervals-and-power-a-guide-to-misinterpretat.pdf)
+: **Guest Lecture**{: .label .label-green} Safety in Field Foundation Models [(Jay Patrikar)](https://www.jaypatrikar.me/)
+  : 
+
 
 Apr. 15
 : Statistical Testing of Learned Policies
