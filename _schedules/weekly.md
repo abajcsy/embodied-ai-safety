@@ -33,8 +33,8 @@ schedule:
         end: 12:20 PM
         location: GHC 4215
       - name: Office Hours (Andrea)
-        start: 1:00 PM
-        end: 2:00 PM
+        start: 12:20 PM
+        end: 1:20 PM
         location: NSH 4629
   - name: Thursday
   - name: Friday
