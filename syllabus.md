@@ -33,11 +33,13 @@ The course is open to graduate students and advanced undergraduates. While there
 
 ## Textbooks
 There is no need buy any textbook for this course. We will provide lecture notes in this course. The following are companion textbooks that can provide useful further reading: 
-* Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach
+* Stuart Russell and Peter Norvig, [Artificial Intelligence: A Modern Approach](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf)
+* Mykel Kochenderfer, Sydney Katz, Anthony Corso, and Robert Moss, [Algorithms for Validation](https://algorithmsbook.com/validation/files/val.pdf) 
 * Tamer Basar and Geert Jan Olsder, Dynamic Noncooperative Game Theory, 2nd Edition
-* Dimitri Bertsekas, Reinforcement Learning and Optimal Control
-* Richard S. Sutton and Andrew G. Barto, Reinforcement Learning: An Introduction
-* Jorge Nocedal and Stephen J. Wright, Numerical Optimization
+* Dimitri Bertsekas, [Reinforcement Learning and Optimal Control](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf)
+* Richard S. Sutton and Andrew G. Barto, [Reinforcement Learning: An Introduction](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
+* Jorge Nocedal and Stephen J. Wright, [Numerical Optimization](https://www.math.uci.edu/~qnie/Publications/NumericalOptimization.pdf)
+
 
 ## Attendance
 Class attendance and participation are key for both your and your peer’s success in this class.

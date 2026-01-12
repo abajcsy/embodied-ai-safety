@@ -3,9 +3,8 @@ title: Control-Theoretic Safety Foundations
 ---
 
 Jan. 12
-: Course Overview  
+: Course Overview  &nbsp; [[Slides]](./assets/pdfs/Lecture0_intro.pdf)
   : [Syllabus](https://abajcsy.github.io/embodied-ai-safety/syllabus/)
-<!-- &nbsp; [[Slides]](./assets/pdfs/Lecture0_intro.pdf) -->
 
 Jan. 14
 : Sequential Decision-Making
