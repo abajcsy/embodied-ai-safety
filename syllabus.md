@@ -96,7 +96,7 @@ day the reading will be discussed.** The **paper summaries must answer the follo
 3. What do you like about this work?
 
 - **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art).
-**You must work in a group of min 3 and max 5 people. Explicit permission from Andrea must be granted if you want to work on an independent project.** To help you make progress throughout the semester, we have three check-points:
+**You must work in a group of min 2 and max 4 people. Explicit permission from Andrea must be granted if you want to work on an independent project.** To help you make progress throughout the semester, we have three check-points:
 	* *Project Proposal:* Early in the semester, students will submit a project proposal / pitch via Canvas. 
 	* *Midterm Project Check-in:* Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. 
 	* *Final Project:* The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages).
