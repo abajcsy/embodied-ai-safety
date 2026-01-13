@@ -87,8 +87,9 @@ If you are still unsure about the “process” of making pretty figures, read A
 
 There is no official textbook for the class, but the foundations of this class draw upon topics covered by the following excellent textbooks: 
 
-* **Artificial Intelligence: A Modern Approach** by Russell and Norvig
-* **Reinforcement Learning: An Introduction** by Sutton and Barto
-* **Reinforcement Learning and Optimal Control** by Dimitri Bertsekas
-* **Dynamic Noncooperative Game Theory** by Başar and Olsder
-* **Numerical Optimization** by Jorge Nocedal and Stephen J. Wright 
+* Stuart Russell and Peter Norvig, [Artificial Intelligence: A Modern Approach](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf)
+* Mykel Kochenderfer, Sydney Katz, Anthony Corso, and Robert Moss, [Algorithms for Validation](https://algorithmsbook.com/validation/files/val.pdf) 
+* Tamer Basar and Geert Jan Olsder, Dynamic Noncooperative Game Theory, 2nd Edition
+* Dimitri Bertsekas, [Reinforcement Learning and Optimal Control](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf)
+* Richard S. Sutton and Andrew G. Barto, [Reinforcement Learning: An Introduction](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
+* Jorge Nocedal and Stephen J. Wright, [Numerical Optimization](https://www.math.uci.edu/~qnie/Publications/NumericalOptimization.pdf)
