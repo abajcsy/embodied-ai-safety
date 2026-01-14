@@ -7,9 +7,9 @@ Jan. 12
   : [Syllabus](https://abajcsy.github.io/embodied-ai-safety/syllabus/)
 
 Jan. 14
-: Sequential Decision-Making
-  : 
-<!-- &nbsp; [[Notes]](./assets/pdfs/Lecture1_optimal_control.pdf) -->
+: Sequential Decision-Making &nbsp; [[Notes]](./assets/pdfs/Lecture1_sequential_decision_making.pdf)
+  : Ch. 17 [Russel & Norvig](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf), Ch. 1.1 [Bertsekas](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf) 
+
 
 Jan. 19
 : **No Class**{: .label .label-purple} MLK Day
