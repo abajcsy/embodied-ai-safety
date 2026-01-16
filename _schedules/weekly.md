@@ -37,5 +37,10 @@ schedule:
         end: 1:20 PM
         location: NSH 4629
   - name: Thursday
+    events:
+      - name: Office Hours (Junwon)
+        start: 3:30 PM
+        end: 4:30 PM
+        location: NSH 4513
   - name: Friday
 ---
