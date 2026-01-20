@@ -16,11 +16,11 @@ Jan. 19
   : 
 
 Jan. 21
-: Why is Safe Control Hard and What are Safety Filters?
+: Why is Safe Control Hard and What are Safety Filters? &nbsp; [[Notes]](./assets/pdfs/Lecture2_safety_filtering.pdf)
   : [Data-Driven Safety Filters](https://hybrid-robotics.berkeley.edu/publications/CSM2023_Safety_Filters.pdf), [Model Predictive Sheilding](https://arxiv.org/abs/1905.10691)
   <!-- [Safety & Liveness of Filters](https://arxiv.org/pdf/2312.15347)  -->
   <!-- **HW #1 Out**{: .label .label-default} -->
-<!-- &nbsp; [[Notes]](./assets/pdfs/Lecture2_safety_filtering.pdf) -->
+
 
 Jan. 26
 : Safety Filter Synthesis via Optimal Control 
