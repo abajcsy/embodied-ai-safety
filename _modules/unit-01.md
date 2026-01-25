@@ -23,9 +23,9 @@ Jan. 21
 
 
 Jan. 26
-: Safety Filter Synthesis via Optimal Control 
+: Safety Filter Synthesis via Optimal Control &nbsp; [[Notes]](./assets/pdfs/Lecture3_safety_filter_synthesis.pdf)
   : [HJ Reachability Overview](https://arxiv.org/abs/1709.07523), [HJ Viscosity Solution](https://arxiv.org/abs/1410.6445)
-<!-- &nbsp; [[Notes]](./assets/pdfs/Lecture3_safety_filter_synthesis.pdf) -->
+
 
 Jan. 28
 : Robust Safety I 
