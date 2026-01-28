@@ -23,12 +23,12 @@ Jan. 21
 
 
 Jan. 26
-: Safety Filter Synthesis via Optimal Control &nbsp; [[Notes]](./assets/pdfs/Lecture3_safety_filter_synthesis.pdf)
+: Safety Filter Synthesis via Optimal Control &nbsp; [[Notes]](./assets/pdfs/Lecture3-4_safety_filter_synthesis.pdf)
   : [HJ Reachability Overview](https://arxiv.org/abs/1709.07523), [HJ Viscosity Solution](https://arxiv.org/abs/1410.6445)
 
 
 Jan. 28
-: Robust Safety I 
+: Robust Safety I &nbsp; [[Notes]](./assets/pdfs/Lecture4-5_robust_safety_I.pdf)
   : [Differential Games](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2008/RM1391.pdf), [HJ Reach-Avoid Games I](https://www.cs.ubc.ca/~mitchell/Papers/publishedIEEEtac05.pdf), [HJ Reach-Avoid Games II](https://arxiv.org/pdf/0911.4625)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture4_synthesis_and_robust_safety.pdf) -->
 
