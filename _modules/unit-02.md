@@ -3,7 +3,7 @@ title: Frontiers I
 ---
 
 Feb. 11
-: Modern Computation II & Updating Safety Online &nbsp; [[Notes]](./assets/pdfs/Lecture8_online_updates.pdf)
+: Modern Computation II & Updating Safety Online &nbsp; [[RL Notes]](./assets/pdfs/KEN_rl_lecturenotes.pdf) [[Notes]](./assets/pdfs/Lecture8_online_updates.pdf)
   : [Parameterized Reachability](https://arxiv.org/pdf/2209.14976), [Reachability Adapted with Gaussian Processes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493361), [Local Updates](https://arxiv.org/abs/1905.00532), [Confidence-Parameterized BRTs](https://arxiv.org/abs/2109.14700), [AnySafe](https://arxiv.org/abs/2509.19555)
 
 Feb. 16
