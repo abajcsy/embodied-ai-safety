@@ -43,6 +43,6 @@ Feb. 4
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture6_computational_frameworks.pdf)  -->
 
 Feb. 9
-: **Guest Lecture**{: .label .label-green} Modern Computation I [(Kensuke Nakamura)](https://kensukenk.github.io/) &nbsp; [[Notes]](./assets/pdfs/Lecture7_computation_KEN.pdf)
+: **Guest Lecture**{: .label .label-green} Modern Computation I [(Kensuke Nakamura)](https://kensukenk.github.io/) &nbsp; [[Notes]](./assets/pdfs/Lecture7_computation_KEN.pdf) [[Google Colab]](https://colab.research.google.com/drive/1D0IKfXkvjfLHtl-JhDrMFD4mdQxX_ZET?usp=sharing)
   : [Discounted Reachability](https://ieeexplore.ieee.org/document/8794107), [DeepReach](https://arxiv.org/pdf/2011.02082), [ISAACS](https://arxiv.org/abs/2212.03228)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture6_computational_frameworks.pdf)  -->

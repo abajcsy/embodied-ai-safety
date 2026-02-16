@@ -3,11 +3,11 @@ title: Frontiers I
 ---
 
 Feb. 11
-: Modern Computation II & Updating Safety Online &nbsp; [[RL Notes]](./assets/pdfs/KEN_rl_lecturenotes.pdf) [[Notes]](./assets/pdfs/Lecture8_online_updates.pdf)
+: Modern Computation II & Updating Safety Online &nbsp; [[Notes - Computation]](./assets/pdfs/KEN_rl_lecturenotes.pdf) [[Notes - Online Updates]](./assets/pdfs/Lecture8_online_updates.pdf) [[Slides - Online Updates]](./assets/pdfs/Lecture8_online_updates_slides.pdf)
   : [Parameterized Reachability](https://arxiv.org/pdf/2209.14976), [Reachability Adapted with Gaussian Processes](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8493361), [Local Updates](https://arxiv.org/abs/1905.00532), [Confidence-Parameterized BRTs](https://arxiv.org/abs/2109.14700), [AnySafe](https://arxiv.org/abs/2509.19555)
 
 Feb. 16
-: Latent-Space Safety
+: Latent-Space Safety &nbsp; [[Notes]](./assets/pdfs/Lecture9_latent_space_safety.pdf) 
   : **Project Proposal Due**{: .label .label-yellow} [Latent Safety Filters](https://arxiv.org/abs/2502.00935), [How to Train Your Latent CBF](https://arxiv.org/abs/2511.18606), [Safety Filters for LLM Agents](https://arxiv.org/abs/2510.13727)
 
 Feb. 18
