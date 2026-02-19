@@ -71,7 +71,7 @@ As you start writing more technical content, here are some great guides on how t
 * ["Good Writing"](https://www.cs.cmu.edu/~pausch/Randy/Randy/raibert.htm) by Marc Raibert
 * ["How to write a good paper"](https://drive.google.com/file/d/11lPNgPJX1oEXnl2Vz6lT1gu9XQg2-xn2/view?usp=drive_link) by Cyrill Stachniss
 * ["Simplicity"](https://jm919846758.wordpress.com/wp-content/uploads/2018/08/simplicity.pdf) by William Zinsser
-* ["Research Skills: Technical Writing"](/assets/pdfs/ResearchSkills-TechnicalWriting.pdf) by Andrea Bajcsy
+* ["Research Skills: Technical Writing"](/assets/pdfs/ResearchSkills-Writing.pdf) by Andrea Bajcsy
 
 ## How do I make nice figures for a paper or talk?
 
