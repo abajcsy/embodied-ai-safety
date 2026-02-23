@@ -15,14 +15,15 @@ Mar. 11
 
 Mar. 16
 : Uncertainty Quantification II 
-  : [Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf)
+  : [Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf), [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture10_uq_pt2.pdf) -->
 <!-- [What Are Bayesian NN Posteriors Really Like?](https://proceedings.mlr.press/v139/izmailov21a/izmailov21a.pdf)    -->
 
 
 Mar. 18
-: Conformal Prediction 
-  : **Mid-term Report Due: March 18**{: .label .label-yellow} [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [Perceive With Confidence](https://arxiv.org/abs/2403.08185)
+: **Guest Lecture**{: .label .label-green} Implementing Uncertainty Quantification [(Junwon Seo)](https://junwon.me/) &nbsp;
+  : **Mid-term Report Due: March 18**{: .label .label-yellow} 
+  <!-- [Perceive With Confidence](https://arxiv.org/abs/2403.08185) -->
 <!-- &nbsp; [[Video]](https://drive.google.com/file/d/1huVnpgnhYUCRZ8tHBNaGK6VNS8wZYaZ-/view?usp=drive_link) -->
 
 
