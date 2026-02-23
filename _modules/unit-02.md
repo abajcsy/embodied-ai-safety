@@ -23,7 +23,7 @@ Feb. 23
   <!-- [Safety Representations from Language](https://arxiv.org/abs/2409.14580) -->
 
 Feb. 25
-: Runtime Monitoring & Recovery via VLMs
+: Runtime Monitoring & Recovery via VLMs  &nbsp; [[Notes]](./assets/pdfs/Lecture11_runtime-monitoring-fallbacks.pdf) [[Slides]](./assets/pdfs/Lecture11_runtime-monitoring-fallbacks_demos.pdf) 
   : **HW #2 Due: Feb 28**{: .label .label-default}  [LLM Fallbacks](https://arxiv.org/abs/2407.08735), [FOREWARN](https://arxiv.org/abs/2502.01828) 
 
 
