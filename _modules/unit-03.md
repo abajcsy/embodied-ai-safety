@@ -3,10 +3,9 @@ title: Machine Learning & Statistical Safety Foundations
 ---
 
 Mar. 9
-: Uncertainty Quantification I 
+: Uncertainty Quantification I  &nbsp; [[Notes]](./assets/pdfs/Lecture12_uq_pt1-F26.pdf)
   : [On the Calibration of Modern NNs](https://arxiv.org/abs/1706.04599), [Prof. Eric Nalisnick's](https://enalisnick.github.io/) research and talks
   <!-- **HW #3 Out**{: .label .label-default} -->
-<!-- &nbsp; [[Notes]](./assets/pdfs/Lecture9_uq_pt1.pdf) -->
 
 Mar. 11
 : Mid-term Project Pitches
