@@ -3,7 +3,7 @@ title: Machine Learning & Statistical Safety Foundations
 ---
 
 Mar. 9
-: Uncertainty Quantification I  &nbsp; [[Notes]](./assets/pdfs/Lecture12_uq_pt1-F26.pdf)
+: Uncertainty Quantification I  &nbsp; [[Notes]](./assets/pdfs/Lecture13_uq_pt1-F26.pdf)
   : [On the Calibration of Modern NNs](https://arxiv.org/abs/1706.04599), [Prof. Eric Nalisnick's](https://enalisnick.github.io/) research and talks
   <!-- **HW #3 Out**{: .label .label-default} -->
 
@@ -13,10 +13,9 @@ Mar. 11
 
 
 Mar. 16
-: Uncertainty Quantification II 
-  : [Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf), [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511)
-<!-- &nbsp; [[Notes]](./assets/pdfs/Lecture10_uq_pt2.pdf) -->
-<!-- [What Are Bayesian NN Posteriors Really Like?](https://proceedings.mlr.press/v139/izmailov21a/izmailov21a.pdf)    -->
+: Uncertainty Quantification II   &nbsp; [[Notes]](./assets/pdfs/Lecture12_uq_pt2-F26.pdf)
+  : [Deep Ensembles](https://arxiv.org/abs/1612.01474), [Deep Laplace Approx](https://arxiv.org/abs/2106.14806), [Gentle Intro to Conformal](https://arxiv.org/abs/2107.07511), [Conformal Prediction (Prof. Tibshirani)](https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/conformal.pdf)
+<!-- [What Are Bayesian NN Posteriors Really Like?](https://proceedings.mlr.press/v139/izmailov21a/izmailov21a.pdf), [Gaussian Processes Book](https://gaussianprocess.org/gpml/chapters/RW.pdf)  -->
 
 
 Mar. 18
