@@ -19,7 +19,7 @@ Mar. 16
 
 
 Mar. 18
-: **Guest Lecture**{: .label .label-green} Implementing Uncertainty Quantification [(Junwon Seo)](https://junwon.me/) &nbsp;
+: **Guest Lecture**{: .label .label-green} Implementing Uncertainty Quantification [(Junwon Seo)](https://junwon.me/) &nbsp; [[Code]](https://github.com/junwon-vision/eais_uq) [[Tutorial Notebook]](https://github.com/junwon-vision/eais_uq/blob/main/uq.ipynb)
   : **Mid-term Report Due: March 18**{: .label .label-yellow} 
   <!-- [Perceive With Confidence](https://arxiv.org/abs/2403.08185) -->
 <!-- &nbsp; [[Video]](https://drive.google.com/file/d/1huVnpgnhYUCRZ8tHBNaGK6VNS8wZYaZ-/view?usp=drive_link) -->
