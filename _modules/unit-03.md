@@ -28,8 +28,7 @@ Mar. 18
 
 Mar. 23
 : Quantifying and Resolving Robot Uncertainty 
-  : **Paper Reading**{: .label .label-red} [EnsembleDAgger](https://arxiv.org/abs/1807.08364), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928) 
-<!-- [Diffusion Policy](https://arxiv.org/pdf/2303.04137) -->
+  : **Paper Reading**{: .label .label-red} [Can We Detect Failures Without Failure Data?](https://arxiv.org/abs/2503.08558), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928) 
 
 
 Mar. 25 
