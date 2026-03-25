@@ -32,8 +32,8 @@ Mar. 23
 
 
 Mar. 25 
-: System vs. Component-Level Anomalies 
-  : [System-Level OOD](https://arxiv.org/abs/2212.14020), [Not All Errors](https://arxiv.org/abs/2403.04745), [BYOVLA](https://arxiv.org/abs/2410.01971)
+: System vs. Component-Level Anomalies &nbsp; [[Notes]](./assets/pdfs/Lecture14_system-level-failures.pdf) 
+  : [System-Level OOD](https://arxiv.org/abs/2212.14020), [Not All Errors](https://arxiv.org/abs/2403.04745), [BYOVLA](https://arxiv.org/abs/2410.01971), [Closed-Loop Vision Failures](https://arxiv.org/abs/2410.21736)
 <!-- &nbsp; [[Notes]](./assets/pdfs/Lecture11_system-level-UQ-1.pdf) [[Slides]](./assets/pdfs/Lecture11_system-level-UQ-2.pdf) -->
 
 Mar. 30
