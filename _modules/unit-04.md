@@ -3,7 +3,7 @@ title: Frontiers II
 ---
 
 Apr. 1
-: Controlling In-Distribution
+: Controlling In-Distribution &nbsp; [[Notes]](./assets/pdfs/Lecture15_controlling-inD.pdf) 
   : **HW #3 Due**{: .label .label-default} [UNISafe](https://arxiv.org/abs/2505.00779), [In-D CBF](https://arxiv.org/abs/2301.12012), [Lyapunov Density Models](https://proceedings.mlr.press/v162/kang22a/kang22a.pdf), [DynaGuide](https://arxiv.org/abs/2506.13922)
 <!-- [Robot Learning as an Empirical Science](https://arxiv.org/abs/2409.09491), [Misinterpretations of Statistical Tests](https://www.bfr-akademie.de/media/wysiwyg/2023/EpiStud2023/statistical-tests-p-values-confidence-intervals-and-power-a-guide-to-misinterpretat.pdf) -->
 
