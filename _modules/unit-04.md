@@ -13,7 +13,7 @@ Apr. 6
   : 
 
 Apr. 8
-: Uncertainty in Generative Models
+: Uncertainty in Generative Models &nbsp; [[Slides]](./assets/pdfs/Reading16-unc-in-genModels.pdf)
   : **Paper Reading**{: .label .label-red} [How Confident are Video Models?](https://arxiv.org/abs/2510.02571), [World Models that Know When They Don't Know](https://arxiv.org/abs/2512.05927)
 <!-- [Detecting OOD Inputs to Deep Generative Models](https://arxiv.org/abs/1906.02994) -->
 
@@ -24,5 +24,5 @@ Apr. 13
 
 
 Apr. 15
-: Statistical Testing of Learned Policies
+: Statistical Testing of Learned Policies. 
   : **Paper Reading**{: .label .label-red} [Statistical Safe Set Verification](https://proceedings.mlr.press/v242/lin24a/lin24a.pdf), [How Generalizable is My BC Policy?](https://arxiv.org/abs/2405.05439)
