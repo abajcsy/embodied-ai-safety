@@ -9,7 +9,7 @@ Apr. 1
 
 
 Apr. 6
-: **Guest Lecture**{: .label .label-green} Algorithmic Safety Validation [(Sydney Katz)](https://sydneymkatz.com/)
+: **Guest Lecture**{: .label .label-green} Algorithmic Safety Validation [(Sydney Katz)](https://sydneymkatz.com/) &nbsp; [[Slides]](https://drive.google.com/file/d/1rWJ6jhbE9XXKmY1vAjWHQytSFV94YeWk/view?usp=sharing)
   : 
 
 Apr. 8
